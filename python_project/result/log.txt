@@ -1,0 +1,19 @@
+ Volume in drive E is New Volume
+ Volume Serial Number is 3EE4-D50D
+
+ Directory of E:\python_project
+
+01/28/2018  10:46 PM    <DIR>          .
+01/28/2018  10:46 PM    <DIR>          ..
+01/14/2018  10:38 PM               375 .project
+01/14/2018  10:38 PM               307 .pydevproject
+01/14/2018  10:41 PM    <DIR>          .settings
+01/14/2018  10:39 PM    <DIR>          config
+01/16/2018  11:05 PM    <DIR>          lib
+01/28/2018  10:44 PM    <DIR>          result
+01/28/2018  10:46 PM            12,406 test.py
+01/28/2018  10:46 PM             1,981 test.pyc
+01/14/2018  11:06 PM                 0 __init__.py
+               5 File(s)         15,069 bytes
+               6 Dir(s)  16,478,703,616 bytes free
+--------test--------------------------
