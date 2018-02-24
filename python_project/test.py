@@ -1070,20 +1070,212 @@ import os
 # import os
 # print os.popen("dir").read()
 
-import pytest
+#**********************testing pytest conftest
+# import pytest
+# 
+# @pytest.fixture(autouse=True)
+# def ss(request):
+#     pytest.skip("should not be tested")
+# 
+# def test(bl):
+#     print 'hah'
+#     bl.output('==============happy new year==================')
 
-@pytest.fixture(autouse=True)
-def ss(request):
-    pytest.skip("should not be tested")
 
-def test(bl):
-    print 'hah'
-    bl.output('==============happy new year==================')
+#****************************re ***********************************
+# import collections
+# import os
+# import re
+# file = r"E:\Doc\NewFeatures\ROM\8QXP\B0\case_list\unit_tset\log\ROM_UNIT_TEST_BOOT_FLOW_TEST.txt"
+# with open(file,'r') as f:
+#     content = f.read()
+# 
+# 
+# 
+# orderDict = dict(collections.OrderedDict())
+# 
+# dict = {'hah':{'a':'1','b':'2'}}
+# print dict['hah']['a']
+# 
+# list = ['hah','heh','xixi']
+# print list[-2]
+# 
+# 
+# 
+# pattern_match = 'done'
+# start = content.find(pattern_match,0)
+# print start
+# 
+# p = re.compile(pattern_match, re.I|re.M)
+# print [match.start() for match in p.finditer(content)]
+# 
+# print match
+# 
+# 
+# # content = '''A value is 1, b value is 2, c value is 3, d value is 4'''
+# 
+# file = r"E:\Doc\NewFeatures\ROM\8QXP\B0\case_list\unit_tset\log\ROM_LOCK_FUSE\ALL_LOCKED_TEST.txt"
+# with open(file,'r') as f:
+#     content = f.read()
+# dict = {}
+# result = re.findall('BootROM_SCU: register after setting .* value is .*', content)
+# print result
+# 
+# for element in result:
+#     print '---------\n'
+#     print element
+#     element_list = element.split(' ')
+# #     print element_list
+#     
+#     dict[element_list[4]] = element_list[7]
+#     
+# value = dict['DSC_CA35']
+# print type(value)
+# 
+# value = eval(dict['DSC_CA35'])
+# print type(value)
+# print value
+# print bin(value)[-4:-1]
+
+
+#*********************hex convert
+# test = '0x1003'
+# print type(eval(test))
+# bin = bin(eval(test))
+# print bin
+# print bin[2:]
+# print type(bin)
+# print int(bin,2)
+
+#********************yaml***********************
+# import os
+# import yaml
+# import json
+# 
+# pattern_info_dict = {
+#                         'ROM_EMMC_BOOT0&Boot0_4-bit': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_BOOT0&Boot0_4-bit_Fast-boot_ACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_BOOT0&Boot0_4-bit_Fast-boot_NOACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_BOOT0&Boot0_4-bit-DDR': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_BOOT0&Boot0_4-bit-DDR_Fast-boot_ACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_BOOT0&Boot0_4-bit-DDR_Fast-boot_NOACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_BOOT0&Boot0_8-bit': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_BOOT0&Boot0_8-bit_Fast-boot_ACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_BOOT0&Boot0_8-bit_Fast-boot_NOACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_BOOT0&Boot0_8-bit-DDR': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_BOOT0&Boot0_8-bit-DDR_Fast-boot_ACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_BOOT0&Boot0_8-bit-DDR_Fast-boot_NOACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_USER&BootU_4-bit': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_USER&BootU_4-bit_Fast-boot_ACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_USER&BootU_4-bit_Fast-boot_NOACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_USER&BootU_4-bit-DDR': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_USER&BootU_4-bit-DDR_Fast-boot_ACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_USER&BootU_4-bit-DDR_Fast-boot_NOACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_USER&BootU_8-bit': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_USER&BootU_8-bit_Fast-boot_ACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_USER&BootU_8-bit_Fast-boot_NOACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_USER&BootU_8-bit-DDR': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_USER&BootU_8-bit-DDR_Fast-boot_ACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_EMMC_USER&BootU_8-bit-DDR_Fast-boot_NOACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_SD&SD_SDR12': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_SD&SD_SDR12_Fast-boot_ACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_SD&SD_SDR25': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_SD&SD_SDR25_Fast-boot_ACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_SD&SD_SDR50': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']},
+#                         'ROM_SD&SD_SDR50_Fast-boot_ACK': {'no_pattern': ['FAIL'], 'pattern': ['bt_system_init done', 'init image success']}
+#                     }
+# 
+# main_path = os.path.abspath(os.path.dirname(__file__)).replace('\\','/')
+# result_path = os.path.join(main_path,'result')
+# yaml_file = os.path.join(result_path,'result.yaml')
+# json_file = os.path.join(result_path, 'result.json')
+# if (True == os.path.isfile(yaml_file)):
+#     os.remove(yaml_file)
+# else:
+#     pass
+
+# with open(json_file, 'w') as f:
+#     print json.dump(pattern_info_dict, f, sort_keys=True)
+# #     content = f.read()
+#     f.close()
+#     
+# print json.dumps(pattern_info_dict, sort_keys=True, indent=4, separators=(',', ': ') )
+    
+# with open(yaml_file, 'r') as f:
+#     content = yaml.load(f)
+#     yaml.dump(pattern_info_dict, f)
+#     f.close() 
+
+#**************************blhost********************************
+
+# import subprocess
+# import json
+# import re
+# 
+# comport = 'com10 '
+# blhost = r'C:\Users\nxa28190\Desktop\Tools\blhost\win\blhost.exe '
+# command = [blhost,'-p ','-j ' ,'-- ' ,'get-property 1']
+# 
+# command.insert((command.index('-p ')+1),comport) 
+# command = [str(x) for x in command]
+# command = ''.join(command)
+# print command
+# 
+# # command = blhost + ' -p com10  -j -- get-property 1'
+# 
+# 
+# 
+# class blhost(object):   
+#     def parse(self, result):
+#         json_result = result[result.find('{') : result.rfind('}')+1]
+#         if len(json_result):
+#             pass
+#         else:
+#             print 'blhost has no output'
+#             return
+#         actualResults = json.loads(json_result)
+#         print actualResults['status']['value'],actualResults['response']
+#         print type(actualResults['status']['value'])
+#         print type(actualResults['response'])
+# 
+#     def send_command(self,cmd):
+#         p = subprocess.Popen(cmd, 0, None, subprocess.PIPE, subprocess.PIPE, None, shell=True)
+#         (sout, serr) = p.communicate() 
+#         print sout
+#         self.parse(sout)
+#        
+#             
+# if __name__ == '__main__':
+#     pass
+#     a = blhost()
+#     a.send_command(command)
+    
+ 
+
+test_list = ['a','b','c']
+
+test_list = [(i+ 'dd')for i in test_list]
+
+for num,content in enumerate(test_list):
+    print num,content 
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
         
 
 
      
-     
-
