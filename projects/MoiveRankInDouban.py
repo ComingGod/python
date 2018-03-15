@@ -3,26 +3,35 @@ import requests
 import re
 from lxml import etree
 
-def download_page(url):
-    """获取url地址页面内容"""
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
-    }
-    data = requests.get(url).content
-    # print data
+def PageInfo(data):
     he = etree.HTML(data)
     url = he.xpath('//li/div/div/div/a/@href')
     name = he.xpath('//li/div/div/div/a/span[1][@class="title"]/text()')
+    ratingNum = he.xpath('//li/div/div/div/div/span[2]/text()')
+    assert(len(name) == len(url))
+    # return ([i for i in (name,url,ratingNum)])
+    # return zip(name,url),ratingNum
+    return [name, url, ratingNum]
 
+def Spider(url):
+    data = requests.get(url).content
+    nextPage = re.findall(r'<a href="(.*?);filter=" >.*?</a>',data)
+    for i in range(len(nextPage)):
+        nextPage[i] = url + nextPage[i]
+    # print nextPage
+    gotData = PageInfo(data)
+    for i in nextPage:
+        data = requests.get(i).content
+        gotData2 = PageInfo(data)
+        for j in range(len(gotData)):
+        	gotData[j].extend(gotData2[j])
 
-    # print url
-    # print name[0]
-    # print type(name)
-    i = 1 
-    for x in name:
-    	print str(i) + '. ' + x
-    	i = i+1
+    print '*'*20
+    print gotData
+    fp = open('movieRanking.txt','w+')
+    for i in range(len(gotData[0])):
+    	fp.write('%s\t\t%s\t%s\n' %(gotData[0][i].encode('utf8'), gotData[1][i].encode('utf8'), gotData[2][i].encode('utf8')))
 
 if __name__ == "__main__":
     url = 'http://movie.douban.com/top250/'
-    download_page(url)
+    Spider(url)
