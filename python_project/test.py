@@ -1251,15 +1251,89 @@ import os
 #     a.send_command(command)
     
  
-
-test_list = ['a','b','c']
-
-test_list = [(i+ 'dd')for i in test_list]
-
-for num,content in enumerate(test_list):
-    print num,content 
+#enumerate
+# test_list = ['a','b','c']
+# 
+# test_list = [(i+ 'dd')for i in test_list]
+# 
+# for num,content in enumerate(test_list):
+#     print num,content 
  
+#spider 
+# -*- coding: utf-8 -*-
+import sys
+import re
+import requests
+import urllib2
+from lxml import  etree
+string = "adbdddddbaaaaaab"
+  
+# result =  re.findall('a.*?b',string)
+# print result
+# 
+# def Write_File(content):
+#     with open('content.txt','w+') as fp:
+#         for items in content:
+#             print items[0].encode("utf8")
+#             fp.write("%s\t\t%s\n" %(items[0].encode("utf8"),items[1].encode("utf8")))
+# 
+# def Page_Info(myPage):
+#     '''Regex'''
+#     mypage_Info = re.findall(r'<div class="titleBar" id=".*?"><h2>(.*?)</h2><div class="more"><a href="(.*?)">.*?</a></div></div>', myPage, re.S)
+#     return mypage_Info
+# 
+# 
+# start_url = "http://news.163.com/rank/"
+# myPage = requests.get(start_url).content.decode("gbk")
+# 
+# result = Page_Info(myPage)
+# Write_File(result)
+# for items in result:
+#     print items[0],items[1]
+#     write_file(items[0].encode("utf8"), items[1].encode("utf8"))
+# print result[0][0]
+# print result[0][1]
+# print Page_Info(myPage)
+# myPage.encode('UTF-8')
+# write_file(myPage)
+
+
+
+def Page_Info(page):
+    # myPage_Info = re.findall(r'div class="titleBar" id=.*?><h2>(.*?)</h2><div class="more"><a href="(.*?)">' , page, re.S)
+    my_Page = etree.HTML(page)
+    title = my_Page.xpath("//div/h2/text()")
+
+    for item in title:
+        print item
+    return title
+
+def Write_File(content):
+    with open("content.txt","w+") as fp:
+        for s in content:
+            fp.write("%s\t\t%s\n" %(s[0] , s[1]) )
+
+if __name__ == "__main__":
+    start_url = "http://news.163.com/rank/"
+    # myPage = requests.get(start_url).content.decode("gbk")
+    myPage = requests.get(start_url).content.decode("gbk")
+    # print myPage
+    # print sys.getdefaultencoding()
+    content = Page_Info(myPage)
+    Write_File(content)
+
+
+
+
+
+
+
+
     
+
+
+
+
 
 
 
