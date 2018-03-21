@@ -2,6 +2,7 @@
 import requests
 import re
 from lxml import etree
+import os
 
 def PageInfo(data):
     he = etree.HTML(data)
@@ -28,6 +29,7 @@ def Spider(url):
 
     print '*'*20
     print gotData
+    print os.getcwd()
     fp = open('movieRanking.txt','w+')
     for i in range(len(gotData[0])):
     	fp.write('%s\t\t%s\t%s\n' %(gotData[0][i].encode('utf8'), gotData[1][i].encode('utf8'), gotData[2][i].encode('utf8')))
