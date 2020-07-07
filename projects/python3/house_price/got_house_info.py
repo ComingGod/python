@@ -13,7 +13,6 @@
 __author__ = 'Richard Xiong'
 
 import requests
-import logging
 import time
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
@@ -21,9 +20,7 @@ from lxml import etree
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.styles.colors import YELLOW
-
-
-# logging.basicConfig(level=print, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+from datetime import datetime
 
 
 class ExcelOper(object):
@@ -256,7 +253,9 @@ if __name__ == '__main__':
         house.set_value(sheet_name=str(item[0]), row=5, column='G', value=all_house, color='green')
     house.back()
 
-    house.save_wb('house.xlsx')
+    excel_name = '{}.xlsx'.format(datetime.now().strftime('%y_%m_%d-%H-%M'))
+    print(excel_name)
+    house.save_wb(excel_name)
 
     # a = ['1', '2', '3', '地下车库','地下车库','\xa0', '\xa0', '\xa0']
     # print(a)
