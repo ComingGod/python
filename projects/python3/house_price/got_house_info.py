@@ -159,16 +159,17 @@ class HouseInfo(ExcelOper):
             if 'background-color:#66cc33;' in item['color']:
                 not_sale = not_sale + 1
 
-        sale_rate = (len(house_info) - not_sale) / len(house_info)
+        all_house = len(house_info)
+        sale_rate = (all_house - not_sale)/all_house
 
         print(house_color, house_no)
         print(house_info)
         print(not_sale)
-        print(len(house_info))
+        print(all_house)
         print(sale_rate)
 
         self.chrome.back()
-        return sale_rate, house_info
+        return not_sale, all_house, sale_rate, house_info
 
 
 if __name__ == '__main__':
@@ -203,7 +204,7 @@ if __name__ == '__main__':
     house.enter_house_set(HOUSE_SET1)
     for item in HOUSE_LINK1:
         house.create_sheet(str(item[0]))
-        sale_rate, house_info = house.enter_house_info_page(item[1])
+        not_sale, all_house, sale_rate, house_info = house.enter_house_info_page(item[1])
         for number, info in enumerate(house_info):
             row_value = int(number / 4 + 1)
             colum_value = number % 4
@@ -212,12 +213,17 @@ if __name__ == '__main__':
 
         house.set_value(sheet_name=str(item[0]), row=1, column='F', value='去化率', color='green')
         house.set_value(sheet_name=str(item[0]), row=2, column='F', value=sale_rate, color='green')
+        house.set_value(sheet_name=str(item[0]), row=4, column='F', value='未售', color='green')
+        house.set_value(sheet_name=str(item[0]), row=5, column='F', value=not_sale, color='green')
+        house.set_value(sheet_name=str(item[0]), row=4, column='G', value='总量', color='green')
+        house.set_value(sheet_name=str(item[0]), row=5, column='G', value=all_house, color='green')
+
     house.back()
 
     house.enter_house_set(HOUSE_SET2)
     for item in HOUSE_LINK2:
         house.create_sheet(str(item[0]))
-        sale_rate, house_info = house.enter_house_info_page(item[1])
+        not_sale, all_house, sale_rate, house_info = house.enter_house_info_page(item[1])
         for number, info in enumerate(house_info):
             row_value = int(number / 4 + 1)
             colum_value = number % 4
@@ -226,12 +232,16 @@ if __name__ == '__main__':
 
         house.set_value(sheet_name=str(item[0]), row=1, column='F', value='去化率', color='green')
         house.set_value(sheet_name=str(item[0]), row=2, column='F', value=sale_rate, color='green')
+        house.set_value(sheet_name=str(item[0]), row=4, column='F', value='未售', color='green')
+        house.set_value(sheet_name=str(item[0]), row=5, column='F', value=not_sale, color='green')
+        house.set_value(sheet_name=str(item[0]), row=4, column='G', value='总量', color='green')
+        house.set_value(sheet_name=str(item[0]), row=5, column='G', value=all_house, color='green')
     house.back()
 
     house.enter_house_set(HOUSE_SET3)
     for item in HOUSE_LINK3:
         house.create_sheet(str(item[0]))
-        sale_rate, house_info = house.enter_house_info_page(item[1])
+        not_sale, all_house, sale_rate, house_info = house.enter_house_info_page(item[1])
         for number, info in enumerate(house_info):
             row_value = int(number / 4 + 1)
             colum_value = number % 4
@@ -240,6 +250,10 @@ if __name__ == '__main__':
 
         house.set_value(sheet_name=str(item[0]), row=1, column='F', value='去化率', color='green')
         house.set_value(sheet_name=str(item[0]), row=2, column='F', value=sale_rate, color='green')
+        house.set_value(sheet_name=str(item[0]), row=4, column='F', value='未售', color='green')
+        house.set_value(sheet_name=str(item[0]), row=5, column='F', value=not_sale, color='green')
+        house.set_value(sheet_name=str(item[0]), row=4, column='G', value='总量', color='green')
+        house.set_value(sheet_name=str(item[0]), row=5, column='G', value=all_house, color='green')
     house.back()
 
     house.save_wb('house.xlsx')

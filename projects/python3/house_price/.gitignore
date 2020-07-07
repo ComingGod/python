@@ -1,0 +1,4 @@
+#These items will be ignored by git
+*.spec
+/__pycache__
+/build
