@@ -145,7 +145,7 @@ class HouseInfo(ExcelOper):
     def enter_house_info_page(self, house_link):
         # enter house derailed information page
         self.chrome.find_element_by_xpath(house_link).click()
-        time.sleep(0.5)
+        time.sleep(1)
 
         # got the house color and number
         page_tree = etree.HTML(self.chrome.page_source)
