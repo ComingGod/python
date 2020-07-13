@@ -54,6 +54,8 @@ class ExcelOper(object):
             fill = PatternFill("solid", fgColor='cccccc')
         elif color == 'yellow':
             fill = PatternFill("solid", fgColor=YELLOW)
+        elif color == 'brown':
+            fill = PatternFill("solid", fgColor='666600')
         ws['{}{}'.format(column, row)].fill = fill
 
         return ws
@@ -196,29 +198,29 @@ class HouseInfo(ExcelOper):
 if __name__ == '__main__':
     COLUM_VALUE = ['A', 'B', 'C', 'D', 'E']
     COLOR = {'background-color:#66cc33;': 'green', 'background-color:#cccccc;': 'grey',
-             'background-color:Yellow;': 'yellow'}
+             'background-color:Yellow;': 'yellow', 'background-color:#666600;': 'brown'}
     BASE_URL = r'http://spf.szfcweb.com/szfcweb/(S(wwkvmt45ppfml2mkbrlotu35))/DataSerach/SaleInfoProListIndex.aspx'
-    HOUSE_SET1 = '//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a'
-    HOUSE_SET2 = '//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a'
-    HOUSE_SET3 = '//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a'
-
-    HOUSE_7_LINK = (7, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a')
-    HOUSE_5_LINK = (5, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a')
-    HOUSE_9_LINK = (9, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a')
-    HOUSE_8_LINK = (8, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[5]/td[1]/a')
-    HOUSE_LINK1 = [HOUSE_7_LINK, HOUSE_5_LINK, HOUSE_9_LINK, HOUSE_8_LINK]
-
-    HOUSE_2_LINK = (2, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a')
-    HOUSE_1_LINK = (1, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a')
-    HOUSE_6_LINK = (6, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a')
-    HOUSE_3_LINK = (3, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[5]/td[1]/a')
-    HOUSE_4_LINK = (4, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[6]/td[1]/a')
-    HOUSE_LINK2 = [HOUSE_2_LINK, HOUSE_1_LINK, HOUSE_6_LINK, HOUSE_3_LINK, HOUSE_4_LINK]
-
-    HOUSE_10_LINK = (10, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a')
-    HOUSE_11_LINK = (11, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a')
-    HOUSE_12_LINK = (12, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a')
-    HOUSE_LINK3 = [HOUSE_10_LINK, HOUSE_11_LINK, HOUSE_12_LINK]
+    # HOUSE_SET1 = '//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a'
+    # HOUSE_SET2 = '//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a'
+    # HOUSE_SET3 = '//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a'
+    #
+    # HOUSE_7_LINK = (7, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a')
+    # HOUSE_5_LINK = (5, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a')
+    # HOUSE_9_LINK = (9, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a')
+    # HOUSE_8_LINK = (8, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[5]/td[1]/a')
+    # HOUSE_LINK1 = [HOUSE_7_LINK, HOUSE_5_LINK, HOUSE_9_LINK, HOUSE_8_LINK]
+    #
+    # HOUSE_2_LINK = (2, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a')
+    # HOUSE_1_LINK = (1, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a')
+    # HOUSE_6_LINK = (6, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a')
+    # HOUSE_3_LINK = (3, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[5]/td[1]/a')
+    # HOUSE_4_LINK = (4, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[6]/td[1]/a')
+    # HOUSE_LINK2 = [HOUSE_2_LINK, HOUSE_1_LINK, HOUSE_6_LINK, HOUSE_3_LINK, HOUSE_4_LINK]
+    #
+    # HOUSE_10_LINK = (10, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a')
+    # HOUSE_11_LINK = (11, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a')
+    # HOUSE_12_LINK = (12, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a')
+    # HOUSE_LINK3 = [HOUSE_10_LINK, HOUSE_11_LINK, HOUSE_12_LINK]
 
     # if not (len(sys.argv) == 3):
     #     print('Please input porject name and region')
@@ -249,9 +251,9 @@ if __name__ == '__main__':
 
         house.back()
 
-        excel_name = '{}_{}_房屋销售统计{}.xlsx'.format(sys.argv[1], sys.argv[2], datetime.now().strftime('%y_%m_%d-%H-%M'))
-        print(excel_name)
-        house.save_wb(excel_name)
+    excel_name = '{}_{}_房屋销售统计{}.xlsx'.format(sys.argv[1], sys.argv[2], datetime.now().strftime('%y_%m_%d-%H-%M'))
+    print(excel_name)
+    house.save_wb(excel_name)
 
         # house.back()
 
