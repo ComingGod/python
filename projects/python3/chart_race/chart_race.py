@@ -45,4 +45,4 @@ data = r'D:\Git_Hub\python\projects\python3\chart_race\data\house_sales.csv'
 df = pd.read_csv(data,  index_col='date', encoding='utf-8')
 print(df)
 # generate the chart race gif
-bcr.bar_chart_race(df, 'House_sales.gif', title='House Sales', orientation='v')
+bcr.bar_chart_race(df, 'House_sales.gif', title='Duhui House Sales', orientation='v')

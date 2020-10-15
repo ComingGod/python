@@ -1,5 +1,8 @@
 # 环境配置
 
+> 中文教程https://my.oschina.net/u/4589342/blog/4665233  
+> 官方安装教程 https://www.dexplo.org/bar_chart_race/installation/
+
 - 安装bar-chart-race  
   Git下载库放到libs/sitepackage目录下，手动安装  
   https://github.com/dexplo/bar_chart_race  
