@@ -96,12 +96,12 @@ class HouseInfo(ExcelOper):
 
         self.chrome.get(BASE_URL)
         # input house info
-        self.chrome.find_element_by_xpath('// *[ @ id = "ctl00_MainContent_txt_Pro"]').send_keys('都会')
+        self.chrome.find_element_by_xpath('// *[ @ id = "MainContent_txt_Pro"]').send_keys('都会')
         # select region
-        house_select = Select(self.chrome.find_element_by_id('ctl00_MainContent_ddl_RD_CODE'))
+        house_select = Select(self.chrome.find_element_by_id('MainContent_ddl_RD_CODE'))
         house_select.select_by_value('吴中区')
         # click search button
-        self.chrome.find_element_by_xpath('//*[@id="ctl00_MainContent_bt_select"]').click()
+        self.chrome.find_element_by_xpath('//*[@id="MainContent_bt_select"]').click()
 
     def enter_house_set(self, url):
         # enter first house set
@@ -123,8 +123,8 @@ class HouseInfo(ExcelOper):
 
         # got the house color and number
         page_tree = etree.HTML(self.chrome.page_source)
-        house_no = page_tree.xpath('//*[@id="ctl00_MainContent_gvxml"]/tbody/child::tr/child::*/text()')
-        house_color = page_tree.xpath('//*[@id="ctl00_MainContent_gvxml"]/tbody/child::tr/child::*/@style')
+        house_no = page_tree.xpath('//*[@id="MainContent_gvxml"]/tbody/child::tr/child::*/text()')
+        house_color = page_tree.xpath('//*[@id="MainContent_gvxml"]/tbody/child::tr/child::*/@style')
 
         print(house_color)
         print(house_no)
@@ -174,26 +174,26 @@ if __name__ == '__main__':
     COLOR = {'background-color:#66cc33;': 'green', 'background-color:#cccccc;': 'grey',
              'background-color:Yellow;': 'yellow'}
     BASE_URL = r'http://spf.szfcweb.com/szfcweb/(S(wwkvmt45ppfml2mkbrlotu35))/DataSerach/SaleInfoProListIndex.aspx'
-    HOUSE_SET1 = '//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a'
-    HOUSE_SET2 = '//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a'
-    HOUSE_SET3 = '//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a'
+    HOUSE_SET1 = '//*[@id="MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a'
+    HOUSE_SET2 = '//*[@id="MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a'
+    HOUSE_SET3 = '//*[@id="MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a'
 
-    HOUSE_7_LINK = (7, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a')
-    HOUSE_5_LINK = (5, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a')
-    HOUSE_9_LINK = (9, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a')
-    HOUSE_8_LINK = (8, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[5]/td[1]/a')
+    HOUSE_7_LINK = (7, r'//*[@id="MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a')
+    HOUSE_5_LINK = (5, r'//*[@id="MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a')
+    HOUSE_9_LINK = (9, r'//*[@id="MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a')
+    HOUSE_8_LINK = (8, r'//*[@id="MainContent_OraclePager1"]/tbody/tr[5]/td[1]/a')
     HOUSE_LINK1 = [HOUSE_7_LINK, HOUSE_5_LINK, HOUSE_9_LINK, HOUSE_8_LINK]
 
-    HOUSE_2_LINK = (2, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a')
-    HOUSE_1_LINK = (1, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a')
-    HOUSE_6_LINK = (6, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a')
-    HOUSE_3_LINK = (3, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[5]/td[1]/a')
-    HOUSE_4_LINK = (4, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[6]/td[1]/a')
+    HOUSE_2_LINK = (2, r'//*[@id="MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a')
+    HOUSE_1_LINK = (1, r'//*[@id="MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a')
+    HOUSE_6_LINK = (6, r'//*[@id="MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a')
+    HOUSE_3_LINK = (3, r'//*[@id="MainContent_OraclePager1"]/tbody/tr[5]/td[1]/a')
+    HOUSE_4_LINK = (4, r'//*[@id="MainContent_OraclePager1"]/tbody/tr[6]/td[1]/a')
     HOUSE_LINK2 = [HOUSE_2_LINK, HOUSE_1_LINK, HOUSE_6_LINK, HOUSE_3_LINK, HOUSE_4_LINK]
 
-    HOUSE_10_LINK = (10, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a')
-    HOUSE_11_LINK = (11, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a')
-    HOUSE_12_LINK = (12, r'//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a')
+    HOUSE_10_LINK = (10, r'//*[@id="MainContent_OraclePager1"]/tbody/tr[2]/td[1]/a')
+    HOUSE_11_LINK = (11, r'//*[@id="MainContent_OraclePager1"]/tbody/tr[3]/td[1]/a')
+    HOUSE_12_LINK = (12, r'//*[@id="MainContent_OraclePager1"]/tbody/tr[4]/td[1]/a')
     HOUSE_LINK3 = [HOUSE_10_LINK, HOUSE_11_LINK, HOUSE_12_LINK]
 
     house = HouseInfo()

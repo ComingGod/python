@@ -99,21 +99,22 @@ class HouseInfo(ExcelOper):
 
         self.chrome.get(BASE_URL)
         # input house info
-        self.chrome.find_element_by_xpath('// *[ @ id = "ctl00_MainContent_txt_Pro"]').send_keys(project)
+        # self.chrome.find_element_by_xpath('// *[ @ id = "MainContent_txt_Pro"]').send_keys(project)
+        self.chrome.find_element_by_xpath('// *[ @ id = "MainContent_txt_Pro"]').send_keys(project)
 
         # select region
-        house_select = Select(self.chrome.find_element_by_id('ctl00_MainContent_ddl_RD_CODE'))
+        house_select = Select(self.chrome.find_element_by_id('MainContent_ddl_RD_CODE'))
         house_select.select_by_value(region)
         # click search button
-        self.chrome.find_element_by_xpath('//*[@id="ctl00_MainContent_bt_select"]').click()
+        self.chrome.find_element_by_xpath('//*[@id="MainContent_bt_select"]').click()
 
     def get_house_set_lnk(self):
         # got the url link to count the house set number
         page_tree = etree.HTML(house.chrome.page_source)
-        house_set = page_tree.xpath('//*[@id="ctl00_MainContent_OraclePager1"]/tbody/child::tr/child::*/a/@href')
+        house_set = page_tree.xpath('//*[@id="MainContent_OraclePager1"]/tbody/child::tr/child::*/a/@href')
         house_set_link = []
         for i in range(1, len(house_set) + 1, 1):
-            house_set_link.append('//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[{}]/td/a'.format(i + 1))
+            house_set_link.append('//*[@id="MainContent_OraclePager1"]/tbody/tr[{}]/td/a'.format(i + 1))
         return house_set_link
 
     def enter_house_set(self, url):
@@ -124,11 +125,11 @@ class HouseInfo(ExcelOper):
     def get_house_link(self):
         # got the url link to count the house set number
         page_tree = etree.HTML(house.chrome.page_source)
-        building_no = page_tree.xpath('//*[@id="ctl00_MainContent_OraclePager1"]/tbody/child::tr/child::*/a/text()')
+        building_no = page_tree.xpath('//*[@id="MainContent_OraclePager1"]/tbody/child::tr/child::*/a/text()')
         print(building_no)
         house_link = []
         for i in range(1, len(building_no)+1, 1):
-            house_link.append('//*[@id="ctl00_MainContent_OraclePager1"]/tbody/tr[{}]/td/a'.format(i + 1))
+            house_link.append('//*[@id="MainContent_OraclePager1"]/tbody/tr[{}]/td/a'.format(i + 1))
         # add all the build number and link to a list
         building_info = []
         for no, link in zip(building_no, house_link):
@@ -149,8 +150,8 @@ class HouseInfo(ExcelOper):
 
         # got the house color and number
         page_tree = etree.HTML(self.chrome.page_source)
-        house_no = page_tree.xpath('//*[@id="ctl00_MainContent_gvxml"]/tbody/child::tr/child::*/text()')
-        house_color = page_tree.xpath('//*[@id="ctl00_MainContent_gvxml"]/tbody/child::tr/child::*/@style')
+        house_no = page_tree.xpath('//*[@id="MainContent_gvxml"]/tbody/child::tr/child::*/text()')
+        house_color = page_tree.xpath('//*[@id="MainContent_gvxml"]/tbody/child::tr/child::*/@style')
 
         print(house_color)
         print(house_no)

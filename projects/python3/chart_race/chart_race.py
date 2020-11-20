@@ -14,9 +14,12 @@ __author__ = 'Richard Xiong'
 
 import bar_chart_race as bcr
 import pandas as pd
+import sys
+import os
 
-
-data = r'D:\Git_Hub\python\projects\python3\chart_race\data\house_sales.csv'
+data = sys.argv[1]
+print(data)
+# data = r'D:\Git_Hub\python\projects\python3\chart_race\data\house_sales.csv'
 # df = bcr.load_dataset('baseball')
 # bcr.bar_chart_race(
 #         df=df,
@@ -44,5 +47,6 @@ data = r'D:\Git_Hub\python\projects\python3\chart_race\data\house_sales.csv'
 # parse the data from CSV file
 df = pd.read_csv(data,  index_col='date', encoding='utf-8')
 print(df)
-# generate the chart race gif
-bcr.bar_chart_race(df, 'House_sales.gif', title='Duhui House Sales', orientation='v')
+name = os.path.splitext(data)[0].split('/')[-1]
+print(name)
+bcr.bar_chart_race(df, name+'.gif', title=name, orientation='v')
