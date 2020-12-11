@@ -13,3 +13,6 @@
 
 # generate .exe
 - pyinstaller -F --icon=favicon.ico got_house_info.py
+
+# download chrom driver
+- https://chromedriver.chromium.org/downloads  
