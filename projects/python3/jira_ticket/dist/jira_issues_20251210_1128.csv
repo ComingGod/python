@@ -1,0 +1,680 @@
+﻿Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Affects Version/s,Fix Version/s,Component/s,Component/s,Due Date,Votes,Labels,Description,Environment,Watchers,Watchers,Watchers,Watchers,Watchers,Watchers,Watchers,Watchers,Log Work,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Duplicate),Outward issue link (Duplicate),Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Custom field (Abstained List),Custom field (Accepted (Y/N)),Custom field (Account),Custom field (Action Item Type),Custom field (Actual Business Value),Custom field (Actual FTE),Custom field (Additional Options),Custom field (Additional effort to be approved (man/days)),Custom field (Aging),Custom field (Analysis Champ),Custom field (Analysis Done Date),Custom field (Analysis Due Date),Custom field (Analysis Report),Custom field (Analysis effort (man/days)),Custom field (Analysis for CCB),Custom field (Approval List),Custom field (Approved by),Custom field (Archived Components),Custom field (Assessment Needed By),Custom field (Baseline End),Custom field (Baseline Start),Custom field (Board(s) Affected),Custom field (Branch Name),Custom field (Budget Status),Custom field (Bug Category),Custom field (Business Value),Custom field (Business requestor),Custom field (CCB),Custom field (CCB Done Date),Custom field (CCB Link),Custom field (CCB Outcome),Custom field (CCB Priority),Custom field (CCB Start),Custom field (CCB only),Custom field (CCT Required),Custom field (CDETS Number),Custom field (CIN #),Custom field (CQI Ticket Number),Custom field (CQ_ID),Custom field (CQ_link),Custom field (CR Implementation effort),Custom field (CR Total Effort (person-hours)),Custom field (CR last change),Custom field (CRM issue Assignee),Custom field (CRM issue Data),Custom field (CRM issue ID),Custom field (CRM issue Priority),Custom field (CRM issue Severity),Custom field (CRM issue Status),Custom field (Category),Custom field (Cause),Custom field (Change Set),Custom field (Chipset Affected),Custom field (Cisco Contract),Custom field (Classification),Custom field (Closed Date),Custom field (Committed Date (Plan Date)),Custom field (Common Codebase),Custom field (Completion Status),Custom field (Complexity),Custom field (Confidence),Custom field (Config Spec/Change Set),Custom field (Configs Affected),Custom field (Corrective Action),Custom field (Cost Impact),Custom field (Cost of Delay),Custom field (Cust Docs Impact (Y/N)),Custom field (Cust. Applications),Custom field (Cust. Contact Name),Custom field (Cust. Email Address),Custom field (Cust. Project Name),Custom field (Cust. Project Stage),Custom field (Custom?),Custom field (Customer Information Notification Required),Custom field (Customer Name),Custom field (Customer Needed By),Custom field (Customer Type),Custom field (Customer(s) Affected),Custom field (DOORS Update Needed),Custom field (DOORS id),Custom field (DaysDeficient),Custom field (Delta Lines),Custom field (Dependencies),Custom field (Deployment tasks),Custom field (Design ID),Custom field (Design Spec),Custom field (Detector),Custom field (DevOps Status),Custom field (Device),Custom field (Device Family),Custom field (Doc Rev),Custom field (Doc Title),Custom field (Docs Publish From Doc Team Date),Custom field (Document Size),Custom field (Documentation Requirements),Custom field (Documentation Status),Custom field (Due Date Approved),Custom field (DueTime),Custom field (EPP-Epic-Color),Custom field (Effective Date),Custom field (Enabler type),Custom field (End Date),Custom field (Environment),Custom field (Epic Colour),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Epic/Theme),Custom field (Errata Needed),Custom field (Errata workaround),Custom field (Estimated Impact),Custom field (Execution Type),Custom field (Exposure),Custom field (External ID),Custom field (Filemaker ID),Custom field (Final Installer Ready Date),Custom field (Finding Source),Custom field (Finding Type),Custom field (Fixed / Solved By),Custom field (Flagged),Custom field (Found During Activity),Custom field (Found In),Custom field (Found in Version),Custom field (Function/Category),Custom field (Gantt Options),Custom field (General / Main Topic),Custom field (Impact),Custom field (Impact / Assessment),Custom field (Impact on Budget),Custom field (Impact on Scope / Quality),Custom field (Impact on Time [weeks]),Custom field (Impacted BU),Custom field (Impacted Deliverables),Custom field (Impacted Design/Changes by PR),Custom field (Impacted Planning deliverables),Custom field (Impacted Product),Custom field (Improvement Source),Custom field (Improvement Source Description),Custom field (In Attention To?),Custom field (In-phase Escape Root Cause),Custom field (Inbound Link),Custom field (Initial Impact),Custom field (Initial Probability),Custom field (Initial REI),Custom field (Initiative Variant),Custom field (Integrated By),Custom field (Integrated Date),Custom field (Integration),Custom field (Integration Test Plan),Custom field (Integration Test Report),Custom field (Integration Test Result),Custom field (Integration Tester),Custom field (Integrator),Custom field (Internal ID),Custom field (Internal Release Date),Custom field (Issue Cisco Status),Custom field (Issue Sub-status),Custom field (Item Type),Custom field (Iteration),Custom field (Jira Project),Custom field (Jira Schema),Custom field (Jira Ticket Reference),Custom field (Job Size),Custom field (Justification),Custom field (Keywords),Custom field (Klocwork Build),Custom field (Klocwork Project),Custom field (Klocwork Scope),Custom field (LF Finished),Custom field (LF Started),Custom field (LF Ticket),Custom field (LL Category),Custom field (LL Type),Custom field (Last Closure),Custom field (Latest End),Custom field (Latest Start),Custom field (Legal Review Status),Custom field (Lessons Learned - Domain),Custom field (License),Custom field (License - OTHER),Custom field (Location Restriction),Custom field (Loss / Impact),Custom field (Methodology),Custom field (Milestone Date),Custom field (ModelN Oppt. No.),Custom field (NewWork Reason),Custom field (OLD_Reason for OnHold),Custom field (OPR Message),Custom field (OPR block),Custom field (OSR Ticket),Custom field (Opportunity Status),Custom field (Original Reporter (role)),Custom field (Original Requestor Name),Custom field (Original story points),Custom field (Other Device Family),Custom field (Out-of-Phase Non-Detection Root Cause),Custom field (Overall Status),Custom field (Owner),Custom field (PA Sub-Tasks),Custom field (PDM Issue ID),Custom field (PDM Issue ID_old),Custom field (PL Agreed),Custom field (PL Decision),Custom field (PL Done Date),Custom field (PL Dropped),Custom field (PL Reviewed by),Custom field (PL reviewers),Custom field (PRID Status),Custom field (Parent Feature),Custom field (Parent Link),Custom field (Pass Criteria),Custom field (PeerReview Requirement),Custom field (PercentDone),Custom field (Phase Found),Custom field (Phase Originated),Custom field (Plan Business Value),Custom field (Planned End),Custom field (Planned End Date),Custom field (Planned FTE),Custom field (Planned Licensing),Custom field (Planned Start),Custom field (Planned Start Date),Custom field (Planning Interval),Custom field (Postcondition),Custom field (Precondition),Custom field (Previous Severities),Custom field (Probability),Custom field (Probability),Custom field (Problem Description),Custom field (Prod. Family / Device),Custom field (Product Line / Project Name),Custom field (Product Variant),Custom field (Progress),Custom field (Project Category),Custom field (Project Phase),Custom field (Project Priority),Custom field (Project Roles),Custom field (Project Status),Custom field (Projects To Clone To),Custom field (Promote to NXP Triage),Custom field (Proposed Solution / Action),Custom field (Publish in Release Notes),Custom field (Published Link),Custom field (QA GO),Custom field (RC1 Date),Custom field (RROE),Custom field (Rank),Custom field (Rank (Obsolete)),Custom field (Reason For Deficient),Custom field (Reason To Close),Custom field (Reason To ReOpen),Custom field (Reason To Stop),Custom field (Reason for CCB),Custom field (Reason for OnHold),Custom field (Reason for Rejection),Custom field (Reason for Waiting),Custom field (Reason to Cancel),Custom field (Regression from version),Custom field (Reject Reason),Custom field (Rejected by),Custom field (RejectedVersions),Custom field (RelNote Visible),Custom field (RelNote Workarounds),Custom field (Release ID),Custom field (Release Note),Custom field (Release Packaging),Custom field (Release Type),Custom field (Release Type RC),Custom field (Release package location),Custom field (Reported Build ID),Custom field (Reproducibility),Custom field (Reproducibility - number of attempts),Custom field (Reproducibility - number of fails),Custom field (Req Feasibility),Custom field (Req Level),Custom field (Req Review Proposal),Custom field (Req Targeted Release),Custom field (Req Type),Custom field (Request Type),Custom field (Requester NPI),Custom field (Requester Region),Custom field (Requirement Source),Custom field (Residual Exposure),Custom field (Residual Impact),Custom field (Residual Probability),Custom field (Resolution Aging),Custom field (Resolution Due Date),Custom field (Resolution Text),Custom field (Resolved Build ID),Custom field (Resolved By),Custom field (Response Time),Custom field (Responsible CCB),Custom field (Revenue),Custom field (Review Type),Custom field (Reviewer Name),Custom field (Reviewer assigned),"Custom field (Revision (commit, tag or label))",Custom field (Risk),Custom field (Risk Category),Custom field (Risk Exposure),Custom field (Risk Source/Category),Custom field (Risk Type),Custom field (Risk consequence),Custom field (Risk occurrence date),Custom field (Risk probability),Custom field (Root Cause),Custom field (Root Cause (cascading)),Custom field (Root Cause (multi choice)),Custom field (Root Cause - Cisco),Custom field (Root Cause Description),Custom field (Root Cause Follow-up action),Custom field (Root Cause of Defect),Custom field (SCRM Group),Custom field (SCRM ID),Custom field (SCRM state),Custom field (SDK SRS Update),Custom field (SE Assigned Region),Custom field (SFDC Oppt. No.),Custom field (SFDC Ticket No.),Custom field (SW RR Options),Custom field (Safety Requirement),Custom field (Safety impacted),Custom field (Scope),Custom field (Scope / Quality Status),Custom field (Severity),Custom field (Shared Review Link),Custom field (Skill-set Requirements),Custom field (SoC(s) supported (label)),Custom field (Solution Approach),Custom field (Source),Custom field (Source Code Location (repository URL)),Sprint,Custom field (Squad),Custom field (Start Date),Custom field (Story Points),Custom field (Strategic Fit),Custom field (Sub Project),Custom field (SubTasksG),Custom field (SubTasksG),Custom field (Supplier Ticket ID),Custom field (System Test Plan),Custom field (System Test Report),Custom field (System Test Result),Custom field (System Tester),Custom field (TA Sub-Tasks),Custom field (Target Finish Date),Custom field (Target end),Custom field (Target start),Custom field (TargetVersion),Custom field (Team),Custom field (Team),Custom field (Team Role),Custom field (Teams Involved),Custom field (Technical Root Cause),Custom field (Technology),Custom field (Test Automation Ready),Custom field (Test Champ),Custom field (Test Doc Ready),Custom field (Test Exe Ready),Custom field (Test Level),Custom field (Test Plan),Custom field (Test Procedure),Custom field (Test Report),Custom field (Test Technique),Custom field (Test Type),Custom field (TestCase ID),Custom field (Tester Assigned),Custom field (Ticket Closed),Custom field (Ticket Comments),Custom field (Ticket Created),Custom field (Time Criticality),Custom field (Time Status),Custom field (Time in current Status),Custom field (ToolChain(s) Affected),Custom field (Total CR Implementation Effort),Custom field (Total Effort Estimate),Custom field (Traceability),Custom field (Traceable),Custom field (Uncommitted Objective),Custom field (Unit Test Report),Custom field (Units),Custom field (Updated Impact),Custom field (Updated Probability),Custom field (Updated REI),Custom field (Upstream Report),Custom field (User-business Value),Custom field (Verification Criteria),Custom field (Verified Build ID),Custom field (WSJF),Custom field (Work Order),Custom field (Work Start),Custom field (Workaround),Custom field (Workaround DueDate),Custom field (cc),Custom field (cc groups),Custom field (qTest Defect Code),Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment
+OTP fusemap preloaded again after a reset despite dedicated sim_arg,ACSVS-31,3947728,Task,Open,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,2 - High,,nxa28190,nxa34748,nxa34748,21/Nov/25 11:04,02/Dec/25 02:40,10/Dec/25 04:21,,i.mxRT2660,,SEC_ROM,,,0,SUZHOU,"In our testcases we have multiple cold resets.. and we expect OTP fusemap is not preloaded (reload) again from TB
+
+this works sometimes and some tests fails..
+
+ 
+
+for example can you check why OTP fusemap is loaded again after a cold reset?
+ # (here we have4 cold resets. First 2 cold reset ok, next two cold resets reloads OTP fusemap) 
+/home/imxrt2660_de/stefan_nxp29037/tb_1.54/CI1_V_SS_RT2660_SOC_TB_1.54.formal/bamboo/ci_bundle.cold_reset_update.rt2660_a0.rtl.2025-11-21-05-06-09/logfiles/RTL_RT2660_A0_ELE_Patch_sentinelrom_Datapatch_ok-FAB_MODE_DEFAULT-0/RTL_RT2660_A0_ELE_Patch_sentinelrom_Datapatch_ok-FAB_MODE_DEFAULT-0.log
+ # /home/imxrt2660_de/stefan_nxp29037/tb_1.54/CI1_V_SS_RT2660_SOC_TB_1.54.formal/bamboo/ci_bundle.cold_reset_update.rt2660_a0.rtl.2025-11-21-05-06-09/logfiles/RTL_RT2660_A0_S40xReturnLifecycle_to_BRICKED_oem_keys_SUCCESS-OEM_CLOSED-0/RTL_RT2660_A0_S40xReturnLifecycle_to_BRICKED_oem_keys_SUCCESS-OEM_CLOSED-0.log",,nxa34748,nxf59189,,,,,,,,,,,,,,,,,,,,,,,,,NO,,,,,,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i2e55s:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,19,,,,,'-404.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1641600,,,0,,,,,,,,,,,,,,,,,,,,,"21/Nov/25 11:24;nxf59189;extend the cssi_po_cnt data width, from[1:0] to [5:0] to solve the issue.
+
+Checking in: tb_mem_loader.sv               : Success - New version: 1.95 - created symbolic link to cached version;;;",,,,,,,
+[RT2660] [TKT0685856] Issues with SRAM Usage for ATE test patterns with later S110 ROMs.,ACSVS-26,3900351,Bug,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,2 - High,Fixed,nxa28190,nxa13790,nxa13790,30/Oct/25 19:35,14/Nov/25 03:39,17/Nov/25 09:02,14/Nov/25 03:36,i.mxRT2660,,TE,,,0,SUZHOU,"Unable to use SRAM (0x3200_0000) space with S110 ROMs past release from TB 1.45 from the CM85. Non-secure space also fails.
+
+Please see attached email for full details and TKT0685856 for the dPDM ticket gating L4 finish.",Found when generating patterns from Origen for ATE.,nxa08513,nxa09240,nxa13790,nxa28190,nxf55110,nxf59190,nxf75315,nxp69668,,,0,,,,0,,,,,"30/Oct/25 19:32;nxa13790;Re Debug result for TKT0685856(Access to memory locations needed by test blocked.).msg;https://jira.sw.nxp.com/secure/attachment/2416641/Re+Debug+result+for+TKT0685856%28Access+to+memory+locations+needed+by+test+blocked.%29.msg",,,,,,,,,,,,,,41,,,,"{
+    ""default"": ""h2. Root cause (short description):\n\n> to be filled <\nh2. Details of the proposed solution:\n\n> to be filled <\nh2. Risk analysis (Analysis and impact of the fix on the product):\n\n> to be filled <\nh2. Impact analysis:\nh3. Safety impact analysis:\n * {*}Yes{*}: >Reason to be filled<>List the Impacted Safety deliverables < *mandatory*\n * *No* : >Reason to be filled< *mandatory*\n\nh3. Planning impact/Scheduled delivery\n\n> to be filled <\nh3. Module(s) involved in the NewFeature/Bug:\n\n> to be filled <\nh3. Test(s) involved in the NewFeature/Bug\n\n> to be filled <\nh3. FDO/AMD deliverables involved in the NewFeature/Bug:\n\n> to be filled <\nh3. Sub-System(s) and team(s):\n\n> to be filled <"",
+    ""Change Request"": ""h2. *Technical feasibility (Y/N)*\n\n> to be filled <\nh2. *Details of the proposed solution (What is the benefit when this CR is implemented?)*\n\n> to be filled <\nh2. *Risk analysis (Analysis and impact of the fix on the product): LOW (risk can be foreseen and is computable) / HIGH (further risk analysis needs to be triggered by CCB)*\n\n> to be filled <\nh2. *Impact analysis*\nh3. Safety impact analysis:\n * {*}Yes{*}: >Reason to be filled<>List the Impacted Safety deliverables < *mandatory*\n * *No* : >Reason to be filled< *mandatory*\n\nh3. *Effort estimation for:*\n * *CR implementation (incl. unit testing)*\n> to be filled <\n\n * *Requirement updates incl. review*\n ** *New*\n> to be filled <\n ** *Update (link to requirements)*\n> to be filled <\n ** *Removal (link to requirements)*\n> to be filled <\n * *Test specification, implementation and execution*\n> to be filled <\n * *Required resources*\n> to be filled <\n * *Effort summary: High/Low (depending of threshold value, see PMP)*\n> to be filled <\n\nh3. *Module(s) involved*\n\n> to be filled <\nh3. *Test(s) involved*\n\n> to be filled <\nh3. *FDO/AMD deliverables (e.g. docs) involved*\n\n> to be filled <\nh3. *Sub-System(s) and team(s)*\n\n> to be filled <""
+  }",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,NXP,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,System Testing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-11-14 03:37:20.209,,,,,,,,,,,,,,,,,,Test / Validation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i26bxw:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,Always,,,,,,,,,,,,Unspecified,,,15,,Issue seems resolved after using expected ROM from Gernot. No further VE is expected for this.,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2 - Serious (essential function degraded),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2246400,,,0,,,,,,,,,,,,,,,2025-10-31 02:07:02.322,,,,,,"31/Oct/25 01:58;nxa28190;*   S110 ROM configure the OCRAM(0x22000000-0x220bf000) as RW/NSE by TRDC
+  For TE's test case, they change the CM85 vector directly to OCRAM 0x32000000. it means the CM85 attribute is always secure, So when CM85(Secure executable) execute on OCRAM(non-secure executable attribute)  will result TRDC return error. 
+ *    There is a simple way for you to execute your code on OCRAM, you just need to use testport to re-write the TRDC cofiguraion of OCRAM to secure executable. You can set below registers to have a try before execute code on OCRAM
+
+            W32(0x50051144, 0x220bf001); //change NSE=0, default value set by ROM is 0x220bf011
+
+            W32(0x500511c0, 0); //disable NSE, default value set by ROM is 1
+ * *TE need to confirm with ROM if this workaround is acceptable* 
+
+ 
+
+ ;;;","13/Nov/25 02:19;nxa28190;[~nxa13790] 
+This issue is related to ROM TRDC configuration. 
+The work from VE team was done, had helped to debug and found the root cause.
+So this ticket for VE team should be closed.
+If you have any concern, you may need to raise a new ticket to ROM team for tracking ;;;","14/Nov/25 03:36;nxa13790;Hi Richard,
+
+I understand this is for VE, but still seemed that the VE issue should remain open until fully resolved. Yesterday's failure was a misunderstanding of the correct ROM, but the preliminary results showed it was not resolved.;;;","14/Nov/25 03:39;nxa13790;Hi Richard,
+
+Now that I've viewed the project's workflow, I stand corrected - it should've been resolved, I then move it to closed (I've used other projects where 'resolved' is the final state, not 'closed'). My apologies.;;;",,,,
+[i.mxRT2660] CAPI: CAPI does not work properly in ROM ,ACSVS-13,3362353,Change Request,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,2 - High,Fixed,nxf59190,nxf83184,nxf83184,18/Mar/25 03:45,29/Oct/25 03:14,08/Nov/25 11:52,29/Oct/25 03:14,i.mxRT2660,,SYS_ROM,,,0,SUZHOU,"ROM uses two CAPI addresses to implement the printing function, but it does not work properly now.
+
+Pseudo-code in ROM:
+
+_#define CM85_ARG_ADDR 0x50001fe4_
+_#define CM85_CMD_ADDR 0x50001fe0_
+ 
+_memcpy(printStr, ""Hello word!"", 12);  //_ _printStr can be any RAM address（OCRAM,ITCM of DTCM）_ 
+_*CM85_ARG_ADDR = printStr;_
+_*CM85_CMD_ADDR = BOOTROM_INFO;  //_ _BOOTROM_INFO =_ 0x15
+ ",,nxa12151,nxa13449,nxf47673,nxf79382,nxf83184,,,,,,0,,,,0,,,,,,,,,,,,NO,,,,,,,267,,,,"{
+    ""default"": ""h2. Root cause (short description):\n\n> to be filled <\nh2. Details of the proposed solution:\n\n> to be filled <\nh2. Risk analysis (Analysis and impact of the fix on the product):\n\n> to be filled <\nh2. Impact analysis:\nh3. Safety impact analysis:\n * {*}Yes{*}: >Reason to be filled<>List the Impacted Safety deliverables < *mandatory*\n * *No* : >Reason to be filled< *mandatory*\n\nh3. Planning impact/Scheduled delivery\n\n> to be filled <\nh3. Module(s) involved in the NewFeature/Bug:\n\n> to be filled <\nh3. Test(s) involved in the NewFeature/Bug\n\n> to be filled <\nh3. FDO/AMD deliverables involved in the NewFeature/Bug:\n\n> to be filled <\nh3. Sub-System(s) and team(s):\n\n> to be filled <"",
+    ""Change Request"": ""h2. *Technical feasibility (Y/N)*\n\n> to be filled <\nh2. *Details of the proposed solution (What is the benefit when this CR is implemented?)*\n\n> to be filled <\nh2. *Risk analysis (Analysis and impact of the fix on the product): LOW (risk can be foreseen and is computable) / HIGH (further risk analysis needs to be triggered by CCB)*\n\n> to be filled <\nh2. *Impact analysis*\nh3. Safety impact analysis:\n * {*}Yes{*}: >Reason to be filled<>List the Impacted Safety deliverables < *mandatory*\n * *No* : >Reason to be filled< *mandatory*\n\nh3. *Effort estimation for:*\n * *CR implementation (incl. unit testing)*\n> to be filled <\n\n * *Requirement updates incl. review*\n ** *New*\n> to be filled <\n ** *Update (link to requirements)*\n> to be filled <\n ** *Removal (link to requirements)*\n> to be filled <\n * *Test specification, implementation and execution*\n> to be filled <\n * *Required resources*\n> to be filled <\n * *Effort summary: High/Low (depending of threshold value, see PMP)*\n> to be filled <\n\nh3. *Module(s) involved*\n\n> to be filled <\nh3. *Test(s) involved*\n\n> to be filled <\nh3. *FDO/AMD deliverables (e.g. docs) involved*\n\n> to be filled <\nh3. *Sub-System(s) and team(s)*\n\n> to be filled <""
+  }",,,,,,,,,,,,,,,,,,,,,,,,,,,,,n/a,2025-10-29 03:14:43.637,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,i.MXRT2660,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,Scope,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-10-29 03:14:43.637,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|hzqp7z:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,225,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3628800,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+[RT2660]Support toggle PMU sensor ,ACSVS-32,3960355,Task,Open,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,,nxa28190,nxa28190,nxa28190,02/Dec/25 04:06,10/Dec/25 04:22,10/Dec/25 04:22,,i.mxRT2660,,SEC_ROM,,,0,,Support toggle the PMU sensor at any time on RTL,,nxa28190,nxp69668,,,,,,,,,0,,,,0,,,,,,,,,,,,NO,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-12-10 04:21:57.197,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i2g674:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,8,,,,,'-404.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,,,,,,,,,,,,,,2025-12-10 04:21:36.343,,,,,,"02/Dec/25 04:07;nxa28190;check below file: 
+    dssc pop testbench/blocks/soc_tb/testbench/instances_v/toggle_sensor_for_rom.sv
+usage:
+    sim_arg := +PMU_VDD1V8_VMIN_ERROR_TOGGLE_TIME=2000000 $(sim_arg)
+
+    use this arg to toggle PMU_VDD_1V8_VMIN at 2000000ns ;;;","04/Dec/25 07:27;nxa28190;support below args to toggle different sensor
+
+sim_arg := +PMU_VDD1V8_VMAX_ERROR_TOGGLE_TIME=10000 $(sim_arg)
+sim_arg := +PMU_VDD0V8_VMIN_ERROR_TOGGLE_TIME=10000 $(sim_arg)
+sim_arg := +PMU_VDD0V8_VMAX_ERROR_TOGGLE_TIME=10000 $(sim_arg)
+sim_arg := +PMU_VDDA1V8_VMIN_ERROR_TOGGLE_TIME=10000 $(sim_arg)
+sim_arg := +PMU_VDDA1V8_VMAX_ERROR_TOGGLE_TIME=10000 $(sim_arg)
+sim_arg := +PMU_VDD3V_VMAX_ERROR_TOGGLE_TIME=10000 $(sim_arg)
+sim_arg := +PMU_VDD3V_VMIN_ERROR_TOGGLE_TIME=10000 $(sim_arg);;;",,,,,,
+[RT2660] Cal OCOTP/Blank To Fab,ACSVS-33,3960383,Task,Open,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,,nxf59189,nxa13790,nxa13790,02/Dec/25 04:54,09/Dec/25 15:08,10/Dec/25 04:21,,i.mxRT2660,,SOC,TE,,0,,Requesting support for RT2660 blank-to-fab. Attached email has the previous discussion.,,nxa09240,nxa13790,nxa28190,nxf59189,nxf59190,nxf85981,nxf89971,nxp69668,,,,,,,,,,,,"02/Dec/25 04:53;nxa13790;RE RT2660 Cal OCOTPBlank To Fab.msg;https://jira.sw.nxp.com/secure/attachment/2498143/RE+RT2660+Cal+OCOTPBlank+To+Fab.msg","02/Dec/25 10:05;nxf59189;corey_err.png;https://jira.sw.nxp.com/secure/attachment/2499215/corey_err.png","02/Dec/25 04:56;nxa13790;image-2025-12-01-21-56-38-256.png;https://jira.sw.nxp.com/secure/attachment/2498145/image-2025-12-01-21-56-38-256.png","02/Dec/25 10:07;nxf59189;image-2025-12-02-17-07-23-332.png;https://jira.sw.nxp.com/secure/attachment/2499216/image-2025-12-02-17-07-23-332.png","04/Dec/25 10:29;nxf59189;image-2025-12-04-17-29-27-200.png;https://jira.sw.nxp.com/secure/attachment/2506118/image-2025-12-04-17-29-27-200.png","04/Dec/25 10:30;nxf59189;image-2025-12-04-17-30-13-063.png;https://jira.sw.nxp.com/secure/attachment/2506120/image-2025-12-04-17-30-13-063.png",,NO,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,NXP,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Test / Validation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i2g6fk:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,8,,,,,'-404.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,691200,,,0,,,,,,,,,,,,,,,,,,,,,"02/Dec/25 04:56;nxa13790;Hi Minnie,
+
+Thanks! My mistake: yes, that was a typo and should’ve been:
+ * 0x54 <= 0xec01700 and 0x50 <= 0x1
+
+The addressing makes sense then. Thanks! The waves I currently have then wouldn’t show much in testbench.top.main_ss_ft_wrap.main_ss.rt2660_cssi_wrapper.mdm_ap_otp_addr[7:0]. But I also don’t see testbench.top.main_ss_ft_wrap.main_ss.mdm_ap.otp_wdata[31:0] or testbench.top.main_ss_ft_wrap.main_ss.mdm_ap.otp_wdata_REG[31:0] updated, which I’m expecting from writing 0x58.
+
+I have some existing waves here: /home/imxrt2660_de/cengelken/waves/s40x__lc_trans__blank_to_fab
+
+This was just trying:
+ * 0x54 <= 0xEC01_7000
+ * 0x58 <= 1
+ * 0x50 <= 3
+ * Wait 1.5 ms
+ * Expect 0x5C == 1
+
+I have another attempt after that to 0xEC01_70B0, but this first OTP write attempt fails so I didn’t breakdown that one.
+
+In the VE testcase, it’s starting with the read, mask the value, then write it back. We can’t do this in blank on the ATE though, so I skipped it and went to where it writes the data back in the log file. Looks like its writing 1, so I went with that.
+
+!image-2025-12-01-21-56-38-256.png!
+
+Thanks,
+
+Corey;;;","02/Dec/25 10:08;nxf59189;Hi Corey,
+
+I have checked your waveform, and there is a parity error when do the 0x54 operation.
+ # can i have your simvision version? as i can't trace the data driver....
+ #  can i have your workspace path?
+
+ # !image-2025-12-02-17-07-23-332.png!;;;","02/Dec/25 19:30;nxa13790;Thanks! We have the same simvision version as the testbench: cadence-xcelium-/25.07-a081
+
+The testbench we build in a PE/TE drive though so that we don't fill up the VE drives, and VEs don't get a bunch of group access requests.
+
+For our drives, you'll need to be part of the `madpete` group. I added you to that today and should be active. I believe the path is hard-coded, but with the group added, you should be able to see it. Probably will need to use `newgrp` in your shell to add it.
+
+In case you still need it, the workspace path for those waves are at /home/rt2660_pete_workarea1/users/cengelken_nxa13790/TBs/V_SS_RT2660_SOC_TB_1.55/;;;","04/Dec/25 10:32;nxf59189;Hi Corey,
+
+ thanks for adding the group for me, i can access your workspace, and i have a search in your workspace, found the s40x__lc_trans__blank_to_fab.atp, and here I circleded , when do this apacc access, the parity is wrong, it should be 0, please check the driver. 
+
+!image-2025-12-04-17-30-13-063.png!
+
+Best Regards,
+
+Minnie;;;","05/Dec/25 05:27;nxa13790;Hi Minnie,
+
+Thanks for helping with this! That is very strange, as this driver is 12+ years old. It was in use before I even started here.
+
+Line 453 is actually the close of the previous transaction, and 454-457 is the SWD start of the next one. But, that parity should be for the AP, AD, and Read, I believe, but there is does appear to be backwards. At least that's what this shows it to be: [https://community.silabs.com/s/article/serial-wire-debug-successful-write-operation?language=en_US];;;","08/Dec/25 04:10;nxa13790;Hi Minnie,
+
+Thanks for helping find the parity error! I'm still really surprised we've had that in there for over a decade, but after changing the parity calculation to match what was linked, the writes will go through.
+
+I have most of the pattern translated and am waiting for one last one with longer delays that will hopefully show the fab lifecycle. My latest one was ending before the fuses were loaded.
+
+Assuming that works, I'll clean it up to get the final pattern we'll use in production. A few questions for this though:
+ # Are the OTP register reads required? I'm hard-coding those values I got from the simulation. On the tester, we can't do a read-write operation on chip like that in this, as I believe the CM85 is not available in this lifecycle. We'll need a deterministic pattern. If I use the same write values from the simulation, will that work in production for all parts?
+ # Is this sequence documented anywhere? I can port a VE testcase, but I don't have much idea as to what its actually doing (other than programming some fuses).
+ # The `ocotp_lc_start_no_blank` bit also seems to reset the part when its done. I don't see any other indication that the process completed except to check reset and/or wait until the SoC reboots, which takes several milliseconds. Checking reset has a similar problem with 1), where if its not deterministic, it may falsely fail. I guess we just need to wait 'long enough' and check the lifecycle in a subsequent pattern?
+ # In previous parts, I could check the lifecycle with the FSB, but I don't see the lifecycle is in the FSB. imx9 has the `lmda_stat_5` register, but I don't see this available in the CRR. But it does appear to be in the memory map when I grepped for it in the testbench? Are these valid? If so, do you know who owns the CRR for this to get them added?;;;","08/Dec/25 07:20;nxf59189;Hi Corey,
+
+please see my comments below:
+ # Are the OTP register reads required? I'm hard-coding those values I got from the simulation. On the tester, we can't do a read-write operation on chip like that in this, as I believe the CM85 is not available in this lifecycle. We'll need a deterministic pattern. If I use the same write values from the simulation, will that work in production for all parts?{color:#de350b} *[minnie] i think you can just write the registers, the read operation is not mandatory.*{color} *{color:#de350b}{color}* 
+# Is this sequence documented anywhere? I can port a VE testcase, but I don't have much idea as to what its actually doing (other than programming some fuses).   {color:#de350b}*[minnie] Jennie will release the document to you.*{color}{color:#de350b} {color}
+ # The `ocotp_lc_start_no_blank` bit also seems to reset the part when its done. I don't see any other indication that the process completed except to check reset and/or wait until the SoC reboots, which takes several milliseconds. Checking reset has a similar problem with 1), where if its not deterministic, it may falsely fail. I guess we just need to wait 'long enough' and check the lifecycle in a subsequent pattern?
+ # In previous parts, I could check the lifecycle with the FSB, but I don't see the lifecycle is in the FSB. imx9 has the `lmda_stat_5` register, but I don't see this available in the CRR. But it does appear to be in the memory map when I grepped for it in the testbench? Are these valid? If so, do you know who owns the CRR for this to get them added?
+
+{color:#de350b}      {color} {color:#de350b}  *[minnie] there is no this status register in S110-fsb, jennie will send out the mail to Nick for asking.*{color};;;","09/Dec/25 15:08;nxa13790;Hi Minnie,
+
+Thanks for your help with this! I have some clean-up work to do on our side, but I have the FSB reads and blank2fab passing. That is, I can start in the blank lifecycle, transition to fab, and get the fab-default value in the FSB. My only concern, as we saw this on 8ulp, is we may reset the part mid-OTP program without some sort of status check that the blank to fab worked. For imx9, we either didn't need to wait as long, or the it wasn't a 'full reset', and we could read back the status register and confirm it was 0, ensuring the otp program completed.
+
+As for the writes, this is the final set I have from the log file:
+
+            base = 0xEC01_7000
+            otp_write!(base + 0x00, 1)
+            otp_write!(base + 0xb0, 0xcf59_5f6a)
+            otp_write!(base + 0xb4, 0xcf41_cf52)
+            otp_write!(base + 0xb8, 0x024a_1131)
+            otp_write!(base + 0xbc, 0x0000_4000)
+            otp_write!(base + 0xf0, 0x00b6_5f6a)
+            otp_write!(base + 0xf4, 0x0100_0000)
+            otp_write!(base + 0xf8, 0x0001_0008)
+            otp_write!(base + 0xfc, 0x0000_0000)
+            otp_write!(base + 0x10, 0x0000_0000)
+            otp_write!(base + 0xbc, 0xfa80_4000)
+            otp_write!(base + 0x00, 0x0000_0005)
+
+This is working in our simulation, but if there is some sort of the read-write required on Si, we wouldn't see it here.;;;"
+Fix CM85 ROM memory map,ACSVS-30,3932072,Task,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa28190,nxa34748,nxa34748,14/Nov/25 07:59,03/Dec/25 07:55,03/Dec/25 07:55,03/Dec/25 07:55,i.mxRT2660,,SEC_ROM,,,0,SUZHOU,"UVM_FATAL /home/imxrt2660_de/nxa34748/bom153/V_SS_RT2660_SOC_TB_1.53/testbench/v_sc_xea1_skeleton_tb/v_ip_mem_autobahn/testbench/classes_v/autobahn_base.sv(444) @ 1511229.74 ns: [m_autobahn] Did not find a memory for address 0000000010820000
+
+ 
+
+as per memory map:
+|ROM|00800000|0082FFFF|10800000|1082FFFF|
+
+ 
+
+Current work around is to use SRAM for CM85 code",,nxa34748,,,,,,,,,,0,,,,0,,,,,,,,,,,,NO,,,,,,,26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-12-03 07:55:23.727,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i2bkco:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,19,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,604800,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Add section for reserving system rom patch area,ACSVS-27,3907864,Story,In Progress,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,,nxa12151,nxp29037,nxp29037,04/Nov/25 08:48,15/Nov/25 08:31,10/Dec/25 04:21,,i.mxRT2660,,SEC_ROM,,,0,,"Hi!
+
+ 
+
+This does just define a section, it does not reserve memory on its own.
+
+If TB code is not using the section, there’s no change expected.
+
+ 
+
+*From:* Richard Xiong <yong.xiong@nxp.com> 
+*Sent:* Saturday, November 1, 2025 9:17 AM
+*To:* Stefan Krug <stefan.krug@nxp.com>
+*Cc:* Berk Xia <bei.xia@nxp.com>; Damon Gong <damon.gong@nxp.com>
+*Subject:* RE: Small CR for TB linker script
+
+ 
+
+Hi Stefan
+
+            Please raise a jira ticket for this request.
+
+            We need to check if the change has any potential risk for our RTL test case.
+
+ 
+
+Regards,
+
+Richard
+
+ 
+
+*From:* Stefan Krug <[stefan.krug@nxp.com|mailto:stefan.krug@nxp.com]> 
+*Sent:* Friday, October 31, 2025 10:23 PM
+*To:* Richard Xiong <[yong.xiong@nxp.com|mailto:yong.xiong@nxp.com]>
+*Subject:* Small CR for TB linker script
+
+ 
+
+Hello!
+
+ 
+
+There is one a bit special usecase for our testing: When system rom needs patches, it parses the patch fuses in OTP and
+
+for code patches, it writes the patch code to the beginning of  SRAM0. Then system rom calls cssi with
+
+an ENABLE PATCH mu message. This is so that CSSI can grant execution permissions to the memory area which
+
+contains the patch code. Now, for security reasons, CSSI does check the code that is in SRAM against
+
+the OTP fuses before granting execution permission.
+
+To test this functionality, we would need to have the expected data in SRAM.
+
+However, the beginning of SRAM currently is used by other global variables of the TB c code.
+
+We could fix/change that with a simple change to the linker script, to have the possibility to reserve that memory area
+
+so that it does not get used for something else:
+
+ 
+
+testbench/blocks/soc_tb/tool_data/compiler/cm85/cm85_s/ldscripts/cm85_s.lnk, about line 65:
+
+ 
+
+  .startup             : { . = ALIGN(8) ; {*}(.text.startup{*});         . = ALIGN(8); } > VMEM      AT > VMEM = 0xff
+
+  .rodata              : { . = ALIGN(8) ; {*}(.rodata{*});               . = ALIGN(8); } > XMEM          AT > XMEM = 0xff
+
+  .text                : { . = ALIGN(8) ; {*}(.text{*});                 . = ALIGN(8); } > XMEM          AT > XMEM = 0xff
+
+{color:#de350b}  .sys_rom_patch       : \{ . = ALIGN(8) ; KEEP(*(.sys_rom_patch))    . = ALIGN(8); } > DMEM          AT > DMEM = 0{color}
+
+  .data                : { . = ALIGN(8) ; {*}(.data{*});                 . = ALIGN(8); } > DMEM          AT > DMEM = 0
+
+  .bss                 : { . = ALIGN(8) ; {*}(.bss{*});                  . = ALIGN(8); } > DMEM          AT > DMEM = 0
+
+  .sbss                : { . = ALIGN(8) ; {*}(.sbss{*});                 . = ALIGN(8); } > DMEM          AT > DMEM = 0
+
+ 
+
+Since the linker script is owned by the testbench environment, may I ask you to add this there so we don’t
+
+have to alter it every time we check out the TB? Note the position is important, it must be before .data.
+
+ 
+
+Thanks, br
+
+  Stefan
+
+ 
+
+ ",,nxa28190,nxp29037,,,,,,,,,,,,,,,,,,,,,,,,,NO,,,,,,,36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i27l3k:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,36,,,,,'-404.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2851200,,,0,,,,,,,,,,,,,,,2025-11-07 14:06:13.063,,,,,,"15/Nov/25 08:31;nxa28190;TB now just support preload sysrom with size 0x20000.
+Will update TB to support preload SYSROM with size 0x30000.;;;",,,,,,,
+PKC memory not retained after a cold reset,ACSVS-25,3897458,Bug,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa28190,nxa34748,nxa34748,29/Oct/25 10:04,15/Nov/25 08:28,15/Nov/25 08:40,15/Nov/25 08:28,i.mxRT2660,,SEC_ROM,,,0,,,,nxa28190,nxa34748,,,,,,,,,0,,,,0,,,,,,,,,,,,,,,,,,,42,,,,"{
+    ""default"": ""h2. Root cause (short description):\n\n> to be filled <\nh2. Details of the proposed solution:\n\n> to be filled <\nh2. Risk analysis (Analysis and impact of the fix on the product):\n\n> to be filled <\nh2. Impact analysis:\nh3. Safety impact analysis:\n * {*}Yes{*}: >Reason to be filled<>List the Impacted Safety deliverables < *mandatory*\n * *No* : >Reason to be filled< *mandatory*\n\nh3. Planning impact/Scheduled delivery\n\n> to be filled <\nh3. Module(s) involved in the NewFeature/Bug:\n\n> to be filled <\nh3. Test(s) involved in the NewFeature/Bug\n\n> to be filled <\nh3. FDO/AMD deliverables involved in the NewFeature/Bug:\n\n> to be filled <\nh3. Sub-System(s) and team(s):\n\n> to be filled <"",
+    ""Change Request"": ""h2. *Technical feasibility (Y/N)*\n\n> to be filled <\nh2. *Details of the proposed solution (What is the benefit when this CR is implemented?)*\n\n> to be filled <\nh2. *Risk analysis (Analysis and impact of the fix on the product): LOW (risk can be foreseen and is computable) / HIGH (further risk analysis needs to be triggered by CCB)*\n\n> to be filled <\nh2. *Impact analysis*\nh3. Safety impact analysis:\n * {*}Yes{*}: >Reason to be filled<>List the Impacted Safety deliverables < *mandatory*\n * *No* : >Reason to be filled< *mandatory*\n\nh3. *Effort estimation for:*\n * *CR implementation (incl. unit testing)*\n> to be filled <\n\n * *Requirement updates incl. review*\n ** *New*\n> to be filled <\n ** *Update (link to requirements)*\n> to be filled <\n ** *Removal (link to requirements)*\n> to be filled <\n * *Test specification, implementation and execution*\n> to be filled <\n * *Required resources*\n> to be filled <\n * *Effort summary: High/Low (depending of threshold value, see PMP)*\n> to be filled <\n\nh3. *Module(s) involved*\n\n> to be filled <\nh3. *Test(s) involved*\n\n> to be filled <\nh3. *FDO/AMD deliverables (e.g. docs) involved*\n\n> to be filled <\nh3. *Sub-System(s) and team(s)*\n\n> to be filled <""
+  }",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,"Coding, static analysis, code review",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-11-15 08:28:48.738,,,,,,,,,,,,,,,,,,SW Architect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i25usc:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,17,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2160000,,,0,,,,,,,,,,,,,,,2025-11-07 14:06:20.109,,,,,,"29/Oct/25 10:06;nxa28190;Debug on BOM1.50, after cold reset, the PKC_MEM pwr_mode will be cleared to 0. All the data will be cleared. This is the expected HW behavior.;;;","31/Oct/25 08:10;nxa28190;discussed with Madhu, Madhu need to hold a meeting with Miro to discuss below 2 topics: 
+ # Low power work around : Ok for risks and security implication?
+ # CSSI doesn't set sticky bit, patch can be installed with warm reset: Ok for security?;;;","15/Nov/25 08:28;nxa28190;Soc doesn't support retain PKC memory after cold reset ;;;",,,,,
+RT2660 ROM low power handshake test,ACSVS-29,3924048,Task,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa28190,nxa28190,nxa28190,11/Nov/25 08:04,15/Nov/25 08:27,15/Nov/25 08:44,15/Nov/25 08:27,i.mxRT2660,,SEC_ROM,,,0,,"Check if S110 ROM works well for low power handshake under PD mode.
+1. S110 ROM should support low power configuration and enter WFI mode successfully after CM85 application code send MU commands to S110
+
+2. When CM85 wakeup from PD mode, CSSI can configure the CM85 VTOR, CM85 will boot into OCRAM once S110 released the CM85 
+
+ ",,nxa28190,,,,,,,,,,0,,,,0,,,,,,,,,,,,NO,,,,,,,29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-11-15 08:27:25.34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i2a9dk:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,4,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2160000,,,0,,,,,,,,,,,,,,,,,,,,,"11/Nov/25 08:07;nxa28190;CM85 should send below commands for S110 ROM to do below jobs:
+ * setup CM85 vector table to 0x22084000 after PD wakeup 
+ * enable GPI5 for PKC memory retention 
+ * enable GPO16 and enter WFI to enable the low power entry for Soc enter low power mode 
+
+    W32(S3MU_TR0, 0x17d10606); 
+    W32(OFFSET(S3MU_TR0,4), 0x00002000); 
+    W32(OFFSET(S3MU_TR0,8), 0x22084000); 
+    W32(OFFSET(S3MU_TR0,0xc), 0x00002000); 
+    W32(OFFSET(S3MU_TR0,0x10), 0x22086000); 
+    W32(OFFSET(S3MU_TR0,0x14), 0x17d12606); 
+
+
+        W32(S3MU_TR0, 0x17c00306); //03 means need to send 3 words 
+    W32(OFFSET(S3MU_TR0, 4), 0x41); //bit6 to enable retention, bit0 to enable BBSM mode
+    W32(OFFSET(S3MU_TR0, 8), 0);;;;","11/Nov/25 08:12;nxa28190;Have tested ROM EAR version, need update ROM to solve below issues:
+1. ROM can't enter WFI due to TRNG seeding cost too much time, simulated about 20ms, still can't enter WFI
+
+2. ROM can't keep GPO16 as 1. In ROM code,  if GPI_IRQ1 requested, ROM will only toggled the GPO16 and then set the GPO16 to 0 in the GPI_IRQ service ;;;","11/Nov/25 08:13;nxa28190;Have tested low power handshake on the updated ROM.
+test found S110 can enter WFI mode,  but GPI5 and GPO16 was not toggled, debugging in progpress;;;","12/Nov/25 15:33;nxa28190;After debugging with [@Gernot Kvas|mailto:gernot.kvas@nxp.com], I have tested soc wakeup from PD mode with new updated S110 ROM successfully.
+ * The PD wakeup flow is:
+ * CM85 send MU commands to S110 ROM, S110 ROM do configuration(Set GPI5 for PKC memory retention boot, set GPO16 for Soc enter LP mode, store CM85 VTOR into PKC mem) and enter WFI
+ * CM85 configure memcon sleepcfg to retain PKC memory & OCRAM when Soc enters PD mode
+ * CM85 set GPIO as wakeup source, do low power configuration, then enter WFI mode , soc will enter PD mode.
+ * GPIO wakeup Soc, S110 ROM boot up, S110 ROM configure CM85 VTOR by using the data stored in PKC memory
+ * S110 ROM release CM85 CPU wait&reset. CM85 boot from OCRAM
+
+
+ * Case details:
+ * CM85 send below command to request S110 store CM85 VTOR
+
+    W32(S3MU_TR0, 0x17d10606);
+
+    W32(OFFSET(S3MU_TR0,4), 0x00002000);
+
+    W32(OFFSET(S3MU_TR0,8), 0x22084000);
+
+    W32(OFFSET(S3MU_TR0,0xc), 0x00002000);
+
+    W32(OFFSET(S3MU_TR0,0x10), 0x22086000);
+
+    W32(OFFSET(S3MU_TR0,0x14), 0x17d12606);
+ * CM85 send below command to request S110 set GPO16, set GPI5,enter WFI
+
+    W32(S3MU_TR0, 0x17c00306);  
+
+    W32(OFFSET(S3MU_TR0, 4), 0x41); //bit6 to enable retention, bit0 to enable BBSM mode
+
+W32(OFFSET(S3MU_TR0, 8), 0);
+ * CM85 Polling the MU0A RSR register to check S110 haD completely executed the commands
+ * CM85 configure memcon for ocram and PKC mem, to retained them when Soc enter PD mode
+ * CM85 set GPIO as wakeup source, do low power configuration and enter WFI
+ * CM85 GPIO wakeup Soc from PD mode;;;","12/Nov/25 15:34;nxa28190;* Waveform
+
+/home/imxrt2660_ve4/nxa28190/V_SS_RT2660_SOC_TB_1.52/testbench/blocks/soc_tb/vectors/s110/results/s110_rom_pd__pdown__inst0VCunitM_rom-pd-test-gpo16-add-clock-final.shm/
+
+From the waveform you can see the Soc wakeup from PD mode, and CM85 execute from OCRAM. Note that I didn’t preload data into OCRAM, so boot from OCRAM will fail in this case.
+
+ 
+ * Arg: 
+/home/imxrt2660_ve4/nxa28190/V_SS_RT2660_SOC_TB_1.52/testbench/blocks/soc_tb/vectors/s110/stimulus/arg/s110_rom_pd__pdown__inst0.arg
+
+/home/imxrt2660_ve4/nxa28190/V_SS_RT2660_SOC_TB_1.52/testbench/blocks/soc_tb/vectors/s110/stimulus/arg/s110_rom_pd_custom.arg
+ * ROM and fuse　
+
+/home/imxrt2660_ve4/nxa28190/V_SS_RT2660_SOC_TB_1.52/testbench/blocks/soc_tb/vectors/s110/stimulus/cssi_rom/rt2660rom.hex
+
+/home/imxrt2660_ve4/nxa28190/V_SS_RT2660_SOC_TB_1.52/testbench/blocks/soc_tb/vectors/s110/stimulus/cssi_rom/RTL_RT2660_A0_S40xPing_ele_from_rtc-FAB-0.fuses.hex
+ * Case
+
+/home/imxrt2660_ve4/nxa28190/V_SS_RT2660_SOC_TB_1.52/testbench/blocks/soc_tb/vectors/s110/stimulus/s110_rom_pd.c
+ * Test command:
+
+                              bsub -q interq -Ip soc verilog -irun -block soc_tb -bc rtl -collect_arg -tc default -vectors s110 -test_name s110_rom_pd__pdown__inst0 -64bit -sim_arg "" +MEMDUMP +DELTACYCLE -gui "" -proj_lib -keeptemps -shm -session rom-pd-test-gpo16-add-clock-final &;;;",,,
+Support for verification of wakeup from power down from CM85 FW,ACSVS-28,3908225,Task,In Progress,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,,nxa28190,nxa34748,nxa34748,04/Nov/25 10:25,07/Nov/25 09:03,03/Dec/25 07:55,,i.mxRT2660,,SEC_ROM,,,0,,,,nxa28190,nxa34748,,,,,,,,,,,,,,,,,,,,,,,,,NO,,,,,,,36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i27mwg:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,36,,,,,'-404.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2851200,,,0,,,,,,,,,,,,,,,2025-11-07 08:58:37.468,,,,,,"07/Nov/25 09:03;nxa28190;* send MU command to request S110 enter WFI mode by using below command for dsleep . S110 cost much time for TRNG seeding before enter WFI.Gernot said it cost 10-20ms on silicon, It's not acceptable on RTL simulation .  Gernot is checking the fuse configuration to reduce the time cost. 
+    W32(S3MU_TR0, 0x17c00306); //03 means need to send 3 words 
+    W32(OFFSET(S3MU_TR0, 4), 0); //bit6 to enable retention, bit0 to enable BBSM mode
+    W32(OFFSET(S3MU_TR0, 8), 0);;;;",,,,,,,
+BBSM need a deposit in FPGA,ACSVS-24,3891524,Task,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa28190,nxa14374,nxa14374,27/Oct/25 04:19,29/Oct/25 03:14,07/Nov/25 08:57,29/Oct/25 03:14,i.mxRT2660,,EMULATION,,,0,,"in rt2660 ,S110 rom will access BBSM , and need a deposit random value to lifecycle ok.
+
+this deposit language can't be implemented in most of FPGA system, we should use a fixed random value to solve this issue.
+
+   $deposit(vbat_ss_ft_wrap.vbat_ss.vbat_bbsm0.bbsm.bbsm_regs.bbsm_mask.mask[31:0], 32'h9757ac03); 
+   $deposit(vbat_ss_ft_wrap.vbat_ss.vbat_bbsm0.bbsm.bbsm_srtc.srtc_reg[46:0], 47'h3fe345a97d10);
+
+it's a potental risk for FPGA system since most of simulation task can't be implmented, so the better way is to fixed on RTL or SW level.",,nxa14374,nxa28190,,,,,,,,,0,,,,0,,,,,,,,,,,,NO,,,,,,,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,RT2600,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-10-29 03:14:26.018,,,,,,,,,,,,,,,,,,Customer internal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i24wfw:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,2,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3628800,,,0,,,,,,,,,,,,,,,,,,,,,"29/Oct/25 03:14;nxa28190;the deposit is suggested by IP team, both on RTL/EMU we should deposit these value before using BBSM;;;",,,,,,,
+TCM preloading is not working on BOM 1.48,ACSVS-21,3865767,Story,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa28190,nxp29037,nxp29037,16/Oct/25 11:39,29/Oct/25 03:12,08/Nov/25 11:53,29/Oct/25 03:12,i.mxRT2660,,SEC_ROM,,,0,SUZHOU,,,nxa28190,nxp29037,,,,,,,,,0,,,,0,,,,,,,,,,,,NO,,,,,,,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-10-29 03:12:48.296,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i20kxk:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,13,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3628800,,,0,,,,,,,,,,,,,,,2025-10-20 03:39:38.673,,,,,,"20/Oct/25 03:39;nxa28190;* If need to disable the HW TCM ecc initialization, the TCM access issue met on your side caused by TB preload the TCM data failed. You need to add below args to fix TCM access issue
+ * C_ARG += FUSE_M85_ECC_HW_INIT_DISABLE
+ * C_ARG += FUSE_M85_ECC_DISABLE
+ * sim_arg := +NO_LOOP_TCM_INITIAL_DONE  $(sim_arg)
+ * sim_arg := +NO_CHECK_TCM_HW_ALL_0  $(sim_arg)
+
+
+ * If need to enable HW TCM ecc initialization, need to add below arg
+ * M85_ECC_HW_INIT_DISABLE=0, M85_ECC_DISABLE=0, +NO_LOOP_TCM_INITIAL_DONE, +NO_CHECK_TCM_HW_ALL_0
+ * Remove testbench/blocks/soc_tb/testbench/instances_v/itcm_dtcm_init_check.sv;;;",,,,,,,
+CM85 run failed/Stuck on BOM1.46,ACSVS-19,3807160,Bug,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa28190,nxa34748,nxa34748,17/Sep/25 09:58,29/Oct/25 03:04,08/Nov/25 11:48,29/Oct/25 03:04,i.mxRT2660,,SEC_ROM,,,0,,"'----------------------------------------
+
+issue 1.46 BOM seems that CM85 is stuck and unable to send MU commands (in our tests we store MU commands in OCRAM).
+
+I am using same files + args on both 1.41 and 1.46
+
+Waves:
+
+1.46
+
+/home/imxrt2660_de/nxa34748/bom146/CI/V_SS_RT2660_SOC_TB_1.46/testbench/blocks/soc_tb/vectors/pkc_wf/results/RTL_RT2660_A0_S40xReset-FAB-0VCunitM_default.shm
+
+ 
+
+1.41:
+
+/home/imxrt2660_de/nxa34748/bom141/V_SS_RT2660_SOC_TB_1.41/testbench/blocks/soc_tb/vectors/pkc_wf/results/RTL_RT2660_A0_S40xReset-FAB-0VCunitM_default.shm
+
+ 
+
+Arg file:
+
+../testbench/blocks/soc_tb/vectors/pkc_wf/arg/ vectorset.arg
+
+ 
+
+Run Commands:
+
+bsub -o log_reset.txt -q xlongq soc verilog -xrun -block soc_tb -bc rtl -collect_arg -tc xspi -64bit -proj_lib -no_compile -shm -session default -comp_arg ""+access+rwc +sv +define+ZV2355_TARMAC_ENABLE"" -sim_arg ""+trace_inst=2 +NO_LOOP_TCM_INITIAL_DONE +ENABLE_LFRO32K_SPEEDUP"" -make_arg ""CM85_INST_MEM=boot_vector CM85_DATA_MEM=sram0 CM85_STACK_MEM=sram0 "" -keeptemps -vectors pkc_wf -test_name RTL_RT2660_A0_S40xReset-FAB-0
+
+Secure ROM:
+
+ROM files are in
+
+/home/imxrt2660_de/nxa34748/bom146/CI/V_SS_RT2660_SOC_TB_1.46/testbench/blocks/soc_tb/vectors/pkc_wf/rom
+
+ 
+
+As per Richard:  CM85 stuck in  function usdhc_clksrc_div2.",,nxa28190,nxa34748,,,,,,,,,0,,,,0,,,,,,,,,,,,,,,,,,,84,,,,"{
+    ""default"": ""h2. Root cause (short description):\n\n> to be filled <\nh2. Details of the proposed solution:\n\n> to be filled <\nh2. Risk analysis (Analysis and impact of the fix on the product):\n\n> to be filled <\nh2. Impact analysis:\nh3. Safety impact analysis:\n * {*}Yes{*}: >Reason to be filled<>List the Impacted Safety deliverables < *mandatory*\n * *No* : >Reason to be filled< *mandatory*\n\nh3. Planning impact/Scheduled delivery\n\n> to be filled <\nh3. Module(s) involved in the NewFeature/Bug:\n\n> to be filled <\nh3. Test(s) involved in the NewFeature/Bug\n\n> to be filled <\nh3. FDO/AMD deliverables involved in the NewFeature/Bug:\n\n> to be filled <\nh3. Sub-System(s) and team(s):\n\n> to be filled <"",
+    ""Change Request"": ""h2. *Technical feasibility (Y/N)*\n\n> to be filled <\nh2. *Details of the proposed solution (What is the benefit when this CR is implemented?)*\n\n> to be filled <\nh2. *Risk analysis (Analysis and impact of the fix on the product): LOW (risk can be foreseen and is computable) / HIGH (further risk analysis needs to be triggered by CCB)*\n\n> to be filled <\nh2. *Impact analysis*\nh3. Safety impact analysis:\n * {*}Yes{*}: >Reason to be filled<>List the Impacted Safety deliverables < *mandatory*\n * *No* : >Reason to be filled< *mandatory*\n\nh3. *Effort estimation for:*\n * *CR implementation (incl. unit testing)*\n> to be filled <\n\n * *Requirement updates incl. review*\n ** *New*\n> to be filled <\n ** *Update (link to requirements)*\n> to be filled <\n ** *Removal (link to requirements)*\n> to be filled <\n * *Test specification, implementation and execution*\n> to be filled <\n * *Required resources*\n> to be filled <\n * *Effort summary: High/Low (depending of threshold value, see PMP)*\n> to be filled <\n\nh3. *Module(s) involved*\n\n> to be filled <\nh3. *Test(s) involved*\n\n> to be filled <\nh3. *FDO/AMD deliverables (e.g. docs) involved*\n\n> to be filled <\nh3. *Sub-System(s) and team(s)*\n\n> to be filled <""
+  }",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,Post-release,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-10-29 03:04:10.538,,,,,,,,,,,,,,,,,,Customer internal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i1qx94:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,42,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3628800,,,0,,,,,,,,,,,,,,,,,,,,,"18/Sep/25 07:36;nxa28190;pop below files: 
+
+testbench/blocks/soc_tb/testbench/forces_v/reset_temp_force.sv
+
+testbench/blocks/soc_tb/testbench/instances_v/pmu_checker_inst.sv
+
+testbench/blocks/soc_tb/testbench/modules_v/pmu_checkers.sv
+
+ ;;;",,,,,,,
+"imxrt2660 preload Secure Rom to verify MTR hard repair pattern,fail",ACSVS-18,3675316,Task,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa28190,nxg07024,nxg07024,24/Jul/25 09:31,21/Sep/25 07:29,15/Nov/25 08:37,21/Sep/25 07:29,i.mxRT2660,,DFT,,,0,SUZHOU,"# Need help to setup the RT2660 environment with the Secure Rom on the BOM 1.38;
+ # Need help to debug the data path from MU to fuse port.",,nxa28190,nxg07024,,,,,,,,,0,,,,0,,,,,,,,,,,,NO,,,,,,,139,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-09-21 07:29:31.456,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i155ig:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,59,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6912000,,,0,,,,,,,,,,,,,,,2025-07-24 09:33:34.699,,,,,,"24/Jul/25 09:34;nxa28190;   Below are the args to setup RT2660 environmnt with Secure ROM on BOM1.38, please help to check.
+ * Preload Secure ROM & Fuse
+
+           sim_arg := +ROM_CODE_HEX_FILE=$(TB_WORKSPACE)/soc_tb/vectors /rt2660rom.hex $(sim_arg)
+
+           sim_arg := +FUSE_HEX_FILE=$(TB_WORKSPACE)/soc_tb/vectors /RTL_RT2660_A0_S40xPing_ele_from_rtc-FAB-0.fuses.hex $(sim_arg)
+
+              //default FAB fuse generated by Sec ROM team, if you remove this fuse will preload the fuse by our default environment
+ * Stop CSSI stimulation when test finished
+
+           sim_arg := +CSSI_S_ROM_CASE  $(sim_arg)
+ * Disable clock configuration by CM85
+
+           C_ARG += SKIP_CCM_CONFIG
+ * MU commands you can refer to here: [https://confluence.sw.nxp.com/pages/viewpage.action?pageId=545927550]
+ * Ping command to check if SEC ROM alive: ID 0x1
+ * Write Fuse : ID 0xD6
+ * Read fuse : ID 0x97
+
+ * Sanity test command to check if works well
+
+           vgen -plan SANITY.csv
+
+           bsub -q interq -I soc verilog -xrun -block soc_tb -bc rtl -collect_arg -tc default -vectors sanity -test_name simple -64bit -proj_lib -keeptemps -comp_arg ""+access+rwc +sv   "" -shm -session default &;;;",,,,,,,
+[RT2660] Load arbitrary rom code on the RISC-V core of CSSI (S110),ACSVS-9,3331241,Task,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa12151,nxp69668,nxp69668,05/Mar/25 08:31,18/Sep/25 05:26,08/Nov/25 11:50,14/Apr/25 09:16,i.mxRT2660,,SEC_ROM,,,0,SUZHOU,,"Possibility to specify cssi rom image on commandline and override in vectorset.arg. Rt1180
+
+uses +sentinel_rom_image=[filename]
+
+Proposal is to align with design to
+
+ 
+
+    +CSSI_ROM_IMAGE=[filename]
+
+ 
+
+Format is verilog readmemh format, addresses are given according to soc memory map. E.g., for
+
+imxrt1180 start of ROM is given as:
+
+    @38000000 4a10006f 36c0106f 3980106f 3870056f 3830056f 3bc0106f 37b0056f 3e40106f
+
+for rt2660, the CSSI with  S110_ROM_BASE            (0xE0000000) that would be accordingly
+
+    @E0000000 [....]",nxa34748,nxp69668,,,,,,,,,0,,,,0,,,ACSVS-11,,,,,,,,,NO,,,,,,,280,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-04-14 09:16:25.114,,,,,,,,,,,,,,,,,,SW Architect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|hzllmn:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,40,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20736000,,,0,,,,,,,,,,,,,,,2025-03-19 09:04:01.08,,,,,,"19/Mar/25 08:54;nxp69668;See mail Berk 12.03.2025:
+
+Separate command sim_arg +=ROM_CODE_HEX_FILE=<path_to_CSSI_ROM> can be used to set CSSI ROM
+
+ ;;;",,,,,,,
+[RT2660] Tarmac traces for S110,ACSVS-10,3331246,Task,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa12151,nxp69668,nxp69668,05/Mar/25 08:33,18/Sep/25 05:25,08/Nov/25 11:50,14/Apr/25 09:16,i.mxRT2660,,SEC_ROM,,,0,SUZHOU,,"RISC-V tarmac output per testcase
+
+Possibility to enable with commandline argument, rt1180 uses the
+
+options +S400_TARMAC_FILE_NAME=[filename] +S400_ELF_FILE_NAME=[filename] +VPS2_TARMAC +VPS2_ITRACE
+
+Proposal is to use:
+
+ 
+
+    +CSSI_TARMAC (enable writing of tarmac trace)
+
+    +CSSI_ITRACE (enable instruction trace, directly to the console
+
+      and simulator log file (not so important, if we get a tarmac
+
+      file post run that's good enough))
+
+    +CSSI_TARMAC_FILE_NAME=[filename] (path to tarmac output file)
+
+    +CSSI_ELF_FILE_NAME=[filename] (elf file corresponding to cssi rom)
+
+ 
+
+The rt1180 tarmac tracer is part of the rt1180 testbench, it's available in the
+
+Korea SDE datacenter at
+
+/home/imxrt1180_verif3/nxf51249/RT1180_1.50/testbench/blocks/soc_tb/testbench/instances_v/riscv_instruction_tracer_inst.sv
+
+the contact person is Vinicius Kraemer [vinicius.kraemer@nxp.com|mailto:vinicius.kraemer@nxp.com] (no longer with NXP?).",nxa28190,nxa34748,nxp29037,nxp69668,,,,,,,0,,,,0,,,,,"26/Mar/25 08:55;nxp69668;image-2025-03-26-08-55-41-897.png;https://jira.sw.nxp.com/secure/attachment/1890703/image-2025-03-26-08-55-41-897.png","26/Mar/25 08:55;nxp69668;image-2025-03-26-08-55-51-855.png;https://jira.sw.nxp.com/secure/attachment/1890704/image-2025-03-26-08-55-51-855.png",,,,,,NO,,,,,,,280,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-04-14 09:17:01.484,,,,,,,,,,,,,,,,,,SW Architect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|hzllo7:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,40,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20736000,,,0,,,,,,,,,,,,,,,2025-03-11 03:45:59.086,,,,,,"11/Mar/25 03:46;nxa28190;Contact Zenv team Nikhil Jain for help, tarmac integration in progress;;;","26/Mar/25 08:55;nxp69668;*From:* Berk Xia <bei.xia@nxp.com> 
+*Sent:* Dienstag, 25. März 2025 10:35
+*To:* Gernot Kvas <gernot.kvas@nxp.com>; Damon Gong <damon.gong@nxp.com>; Richard Xiong <yong.xiong@nxp.com>; Philipp Wallisch <philipp.wallisch@nxp.com>; Stefan Krug <stefan.krug@nxp.com>; Madhu Kumar <madhu.kumar@nxp.com>
+*Cc:* Angela Liang <angela.liang@nxp.com>
+*Subject:* RE: Testbench Status
+
+ 
+
+Hi, all:
+
+ 
+
+ZENV itrace can generated initial logfile now.
+
+ 
+
+ 
+
+According to ZV2335_F09.release.notes (ZenV_CORE_blocks/zenv_core/doc/release_notes/ (sync://sync-15014:15014/Projects/risc5_design/risc5/blocks/zenv_core/doc/release_notes)
+
+) to setup /home/imxrt2660_ve4/nxa12151/risc5_tb/ZV2335_F09/work
+
+ 
+
+According to Readme_itrace to get all files to testbench.
+
+ 
+
+All files will inlcdue to next testbench bom, and command line need include:
+
+-sim_arg ""  +trace_inst=2 "" -comp_arg "" +define+ZV2355_TARMAC_ENABLE ""
+
+ 
+
+The following the the generated log, and it reviewed by Nikhil Jain.
+
+ 
+
+File 'zv2335_simpleVrtl.trace.inst' (size 75.02 KB ) transcended.
+
+Retrieve the files with the keyword:  wDzN2306x
+
+TransMFT URL: [https://nww.mft.nxp.com/download?KEYWORD=wDzN2306x];;;","26/Mar/25 08:55;nxp69668;!image-2025-03-26-08-55-41-897.png!;;;","26/Mar/25 08:55;nxp69668;!image-2025-03-26-08-55-51-855.png!;;;","26/Mar/25 08:58;nxp69668;SoC BOM released e/o this week (W12). TB BOM released mid next week (W13). Plan is to have feedback for next touchpoint meeting scheduled Wednesday 2nd April.;;;","09/Apr/25 11:22;nxp29037;As discussed, the tarmac trace contains no timing information.
+
+Either a cycle based timing info (tics) or simulation time based timing information is required to do performance measurements.;;;",,
+[RT2660] Memory preloading,ACSVS-11,3331258,Task,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa12151,nxp69668,nxp69668,05/Mar/25 08:43,18/Sep/25 05:24,08/Nov/25 11:50,13/May/25 04:13,i.mxRT2660,,SEC_ROM,,,0,SUZHOU,"Support arbitrary memory loading from a single hex file
+
+* simulator parameter to specify the hex file
+
+* ability to define this parameter in .arg file of testcase
+
+* need to load any words into any of ocram, tcm ram
+
+ 
+
+Commandline option for rt1180 is +cm33_memory_image=[filename]
+
+Proposal is to use
+
+ 
+
+    +CM85_MEMORY_IMAGE=[filename]
+
+ 
+
+Example for such a hex file is attached as typical_testcase.cm33.hex
+
+Format is verilog readmemh format, addresses are from soc memory map.",,nxa12151,nxa34748,nxp29037,nxp69668,,,,,,,0,,,,0,,,,ACSVS-9,,,,,,,,NO,,,,,,,280,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-05-13 04:13:32.241,,,,,,,,,,,,,,,,,,SW Architect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|hzlltb:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,69,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18230400,,,0,,,,,,,,,,,,,,,2025-03-19 08:42:54.372,,,,,,"15/Mar/25 08:30;nxa12151;have updated testbench to support sim_arg to select hex file;;;","19/Mar/25 08:55;nxp69668;See mail Berk 12.03.
+
+Separate command sim_arg += SYS_ROM_CODE_HEX_FILE=<path_to_hex_file> for loading any memory, not only ROM of CM85 (except ROM of CSSI);;;","25/Mar/25 18:18;nxp29037;I tried to use the 
+
+  +ROM_CODE_HEX_FILE==/home/imxrt2660_de/stefan_nxp29037/tb_1.26.05/V_SS_RT2660_SOC_TB_1.26.05/testbench/blocks/soc_tb/vectors/sanity/rom/rt2660rom.hex
+switch in a testcase as showcased in the referenced mail. It definitely did do something - it was complaining when the file was not existing - however, it does not seem to load anything.
+
+ 
+
+While in the regular case, the string ""Loading CSSI program code"" does appear in the logfile, it does not in the testcase where the switch is used.
+
+I am using the  V_SS_RT2660_SOC_TB_1.26_05 intermediate tag provided by Berk
+
+ 
+
+Logfiles:
+
+ original, without switch: /home/imxrt2660_de/stefan_nxp29037/tb_1.26.05/V_SS_RT2660_SOC_TB_1.26.05/testbench/blocks/soc_tb/vectors/sanity/logfiles/simple.log
+
+ with switch: /home/imxrt2660_de/stefan_nxp29037/tb_1.26.05/V_SS_RT2660_SOC_TB_1.26.05/testbench/blocks/soc_tb/vectors/sanity/logfiles/simple_with_cssi_rom.log
+
+ ;;;","26/Mar/25 08:50;nxp29037;The arg was erroneously using two equal signs for the argument, hence the tb did not load anything. 
+
+The ""Loading CSSI program code"" log statement is not included in the verilog loading task if the argument is specified, even if it is loading something.;;;","26/Mar/25 08:52;nxp69668;Currently re-running with +ROM_CODE_HEX_FILE=/home/imxrt2660_de/stefan_nxp29037/tb_1.26.05/V_SS_RT2660_SOC_TB_1.26.05/testbench/blocks/soc_tb/vectors/sanity/rom/rt2660rom.hex;;;","16/Apr/25 15:47;nxp29037;sim_arg += SYS_ROM_CODE_HEX_FILE=<path_to_hex_file> replaced the inbuilt mechanism of loading the tb-generated (compiled from c code) hex file. We would need to load a file in addition to the tb-generated hex file.
+
+The implementation uses SYS_MEM_LOAD_HEX to do the actual loading. In a teams chat on 2025-04-16, Richard Xiong explained that ""SYS_MEM_LOAD_HEX(file_location_word,0,`S_ITCM_BASE,`S_SRAM2_END,32); doesn't  support load data to OCRAM1"". Please also consider loading to all OCRAM instances.
+
+ 
+
+ ;;;",,
+[RT2660] OTP preloading,ACSVS-12,3331260,Task,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa28190,nxp69668,nxp69668,05/Mar/25 08:49,18/Sep/25 05:24,08/Nov/25 11:49,19/Mar/25 08:48,i.mxRT2660,,SEC_ROM,,,0,SUZHOU,"Support loading from a single hex file (.val format (ECC + data, one fuse per
+
+line), but can live with a different format as long as we can understand it).
+
+Ideally, we can just specify the fulse contents without ECC.
+
+ 
+
+Path to content of fuses can be passed to simulator and defined in
+
+vectorset.arg file. Proposal is to stick with imxrt1180 name of:
+
+ 
+
+    +FUSE_HEX_FILE=[filename]
+
+ 
+
+Example file is attached as fuses.val",,nxa28190,nxa34748,nxp29037,nxp69668,,,,,,,0,,,,0,,,,,,,,,,,,NO,,,,,,,280,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-03-19 08:48:24.978,,,,,,,,,,,,,,,,,,SW Architect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|hzlluf:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,14,,task finished,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22982400,,,0,,,,,,,,,,,,,,,2025-03-12 06:44:05.274,,,,,,"07/Mar/25 15:34;nxp29037;As shown during the alignment meeting on 2025-03-04, there is a different existing method to preload fuses:
+ # Fuse values get specified as arguments in vectorset.arg
+ # Values get translated by build system to c preprocessor macros
+ # Values get included in a static word array and compiled with cm85 rom code build and end up together with the cm85 code in the cm85 hex file
+ # Values get loaded from the hex file to OTP
+
+We have implemented that method for the generation of CSSI/S110 tests, We can observer the values end up in the hex file.
+
+However, the loading process seems to attempt to load OCOTP from the CSSI hex file.
+
+ 
+
+Example:
+{code:java}
+CM85_simple_with_fuse.rom.hex
+/home/imxrt2660_de/stefan_nxp29037/tb_1.26/V_SS_RT2660_SOC_TB_1.26/testbench/blocks/soc_tb/tool_data/verilog/verilog_FILENAMES_20250307_225221_apcw401i-10-60-37-91.nxdi.kr-awsc1.nxp.com_747950/CM85_simple_with_fuse.rom.hex
+@0C380000 12345678 00000000 00000000 00000000 00000000 00000000 00000000 00000000{code}
+gets created, the value 0x12345678  in word 0 comes from a vectorset argument
+
+ 
+
+In the log, we see loading from CSSI hex file:
+{code:java}
+simple_with_fuse.log.20250307_225221
+/home/imxrt2660_de/stefan_nxp29037/tb_1.26/V_SS_RT2660_SOC_TB_1.26/testbench/blocks/soc_tb/vectors/sanity/logfiles/simple_with_fuse.log.20250307_225221
+UVM_INFO @ 203671.90 ns: [testbench.load_efuse] load_fuse_memory: Loading FUSE program code to OCOTP FUSE
+UVM_INFO @ 203671.90 ns: [testbench.load_efuse] load_fuse_memory: ====   File   : /home/imxrt2660_de/stefan_nxp29037/tb_1.26/V_SS_RT2660_SOC_TB_1.26/testbench/blocks/soc_tb/tool_data/verilog/verilog_FILENAMES_20250307_225221_apcw401i-10-60-37-91.nxdi.kr-awsc1.nxp.com_747950/CSSI_simple_with_fuse.rom.hex
+UVM_INFO @ 203671.90 ns: [testbench.load_efuse] load_fuse_memory: ========================================================
+UVM_INFO /home/imxrt2660_de/stefan_nxp29037/tb_1.26/V_SS_RT2660_SOC_TB_1.26/testbench/v_sc_xea1_skeleton_tb/v_ip_mem_autobahn/testbench/tasks_v/mem_access_api.sv(455) @ 203671.90 ns: [SYS_MEM_LOAD_HEX] load hex... {code};;;","12/Mar/25 14:12;nxa28190;            S110 support preloading specfic fuse now , you can follow below steps to have a try.
+ * Pop below files on TB1.26:
+
+    testbench/blocks/soc_tb/vectors/sanity/stimulus/arg/simple__fuse_load.arg
+
+            testbench/blocks/soc_tb/vectors/sanity/stimulus/arg/simple_fuse.hex
+
+            testbench/blocks/soc_tb/testbench/tasks_v/load_memory_fuse.sv
+
+ 
+ * Test command :
+
+            bsub -q interq -I soc verilog -xrun -block soc_tb -bc rtl -collect_arg -tc default -vectors sanity -test_name simple__fuse_load -64bit -proj_lib -keeptemps -comp_arg ""+access+rwc +sv   "" -sim_arg "" +MEMDUMP +DELTACYCLE -gui "" -shm -session default &;;;","12/Mar/25 14:16;nxa28190;!fuse_load.jpg!;;;",,,,,
+[RT2660] Trigger simulation termination from CM85 without CSSI involvement,ACSVS-15,3539399,Improvement,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa28190,nxp29037,nxp29037,09/May/25 08:58,18/Sep/25 05:23,08/Nov/25 11:49,22/Jul/25 09:13,i.mxRT2660,,SEC_ROM,,,0,,"To terminate the simulation, CSSI needs to write to a capi register. This is not feasible when testing/developing CSSI ROM itself. Here CSSI ROM is the device under test and does not know when a test is done.
+
+It should be possible to trigger termination of the simulation without involving CSSI ROM code for that.",,nxa28190,nxp29037,,,,,,,,,0,,,,0,,,,,,,,,,,,NO,,,,,,,215,,,,"{
+    ""default"": ""h2. Root cause (short description):\n\n> to be filled <\nh2. Details of the proposed solution:\n\n> to be filled <\nh2. Risk analysis (Analysis and impact of the fix on the product):\n\n> to be filled <\nh2. Impact analysis:\nh3. Safety impact analysis:\n * {*}Yes{*}: >Reason to be filled<>List the Impacted Safety deliverables < *mandatory*\n * *No* : >Reason to be filled< *mandatory*\n\nh3. Planning impact/Scheduled delivery\n\n> to be filled <\nh3. Module(s) involved in the NewFeature/Bug:\n\n> to be filled <\nh3. Test(s) involved in the NewFeature/Bug\n\n> to be filled <\nh3. FDO/AMD deliverables involved in the NewFeature/Bug:\n\n> to be filled <\nh3. Sub-System(s) and team(s):\n\n> to be filled <"",
+    ""Change Request"": ""h2. *Technical feasibility (Y/N)*\n\n> to be filled <\nh2. *Details of the proposed solution (What is the benefit when this CR is implemented?)*\n\n> to be filled <\nh2. *Risk analysis (Analysis and impact of the fix on the product): LOW (risk can be foreseen and is computable) / HIGH (further risk analysis needs to be triggered by CCB)*\n\n> to be filled <\nh2. *Impact analysis*\nh3. Safety impact analysis:\n * {*}Yes{*}: >Reason to be filled<>List the Impacted Safety deliverables < *mandatory*\n * *No* : >Reason to be filled< *mandatory*\n\nh3. *Effort estimation for:*\n * *CR implementation (incl. unit testing)*\n> to be filled <\n\n * *Requirement updates incl. review*\n ** *New*\n> to be filled <\n ** *Update (link to requirements)*\n> to be filled <\n ** *Removal (link to requirements)*\n> to be filled <\n * *Test specification, implementation and execution*\n> to be filled <\n * *Required resources*\n> to be filled <\n * *Effort summary: High/Low (depending of threshold value, see PMP)*\n> to be filled <\n\nh3. *Module(s) involved*\n\n> to be filled <\nh3. *Test(s) involved*\n\n> to be filled <\nh3. *FDO/AMD deliverables (e.g. docs) involved*\n\n> to be filled <\nh3. *Sub-System(s) and team(s)*\n\n> to be filled <""
+  }",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-07-22 09:13:28.405,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i0j5zj:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,74,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12182400,,,0,,,,,,,,,,,,,,,2025-05-13 04:12:13.395,,,,,,"12/May/25 17:26;nxa28190;copy this file to your work folder, and add simarg to your arg file. CSSI simulation can finish 
+
+sim_arg := +CSSI_S_ROM_CASE  $(sim_arg) 
+
+/home/imxrt2660_ve3/richard_nax28190/V_SS_RT2660_SOC_TB_1.32/testbench/blocks/soc_tb/testbench/instances_v/end_cssi_task.sv;;;",,,,,,,
+[RT2660] Support test infrastructure code execution from ROM,ACSVS-17,3670492,Improvement,Closed,ACSVS,ACE_China_SoC_verification_Support,software,nxa13449,,,3 - Medium,Fixed,nxa28190,nxp29037,nxp29037,22/Jul/25 09:29,18/Sep/25 05:23,08/Nov/25 11:48,09/Aug/25 08:54,i.mxRT2660,,SEC_ROM,,,0,,"As of now (2025-07-22) the testbench environment/infrastructure code (pre-main, post main, etc.) is placed in TCM. It is executable from there because CSSI ROM is not implementing all security measures.
+
+A proper CSSI ROM will (in closed lifecycles) allow at boot execution only from ROM. Only after an image has been successfully authenticated and verified by CSSI, execution permission to the part of the memory that was verified is granted.
+
+In order to test also those lifecycles, it is necessary that the testbench infrastructure code can be located/linked and preloaded to ROM instead of TCM or SRAM.",,nxa28190,nxp29037,,,,,,,,,0,,,,0,,,,,,,,,,,,NO,,,,,,,141,,,,"{
+    ""default"": ""h2. Root cause (short description):\n\n> to be filled <\nh2. Details of the proposed solution:\n\n> to be filled <\nh2. Risk analysis (Analysis and impact of the fix on the product):\n\n> to be filled <\nh2. Impact analysis:\nh3. Safety impact analysis:\n * {*}Yes{*}: >Reason to be filled<>List the Impacted Safety deliverables < *mandatory*\n * *No* : >Reason to be filled< *mandatory*\n\nh3. Planning impact/Scheduled delivery\n\n> to be filled <\nh3. Module(s) involved in the NewFeature/Bug:\n\n> to be filled <\nh3. Test(s) involved in the NewFeature/Bug\n\n> to be filled <\nh3. FDO/AMD deliverables involved in the NewFeature/Bug:\n\n> to be filled <\nh3. Sub-System(s) and team(s):\n\n> to be filled <"",
+    ""Change Request"": ""h2. *Technical feasibility (Y/N)*\n\n> to be filled <\nh2. *Details of the proposed solution (What is the benefit when this CR is implemented?)*\n\n> to be filled <\nh2. *Risk analysis (Analysis and impact of the fix on the product): LOW (risk can be foreseen and is computable) / HIGH (further risk analysis needs to be triggered by CCB)*\n\n> to be filled <\nh2. *Impact analysis*\nh3. Safety impact analysis:\n * {*}Yes{*}: >Reason to be filled<>List the Impacted Safety deliverables < *mandatory*\n * *No* : >Reason to be filled< *mandatory*\n\nh3. *Effort estimation for:*\n * *CR implementation (incl. unit testing)*\n> to be filled <\n\n * *Requirement updates incl. review*\n ** *New*\n> to be filled <\n ** *Update (link to requirements)*\n> to be filled <\n ** *Removal (link to requirements)*\n> to be filled <\n * *Test specification, implementation and execution*\n> to be filled <\n * *Required resources*\n> to be filled <\n * *Effort summary: High/Low (depending of threshold value, see PMP)*\n> to be filled <\n\nh3. *Module(s) involved*\n\n> to be filled <\nh3. *Test(s) involved*\n\n> to be filled <\nh3. *FDO/AMD deliverables (e.g. docs) involved*\n\n> to be filled <\nh3. *Sub-System(s) and team(s)*\n\n> to be filled <""
+  }",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ALL/GENERAL,,,,,,,,,,,,,,,,,,0.0,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-08-09 08:54:29.464,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automotive,,,,,,,,,,,,,"2|i14d5k:",9223372036854775807,,,,,,,,,,,,,,NO,,,,,,,,,,,,,,,,,,,,,Unspecified,,,18,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 - Moderate (apparent functional problem),,,,,,,,,,,,Networking,[],0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10627200,,,0,,,,,,,,,,,,,,,2025-07-23 11:06:16.838,,,,,,"24/Jul/25 04:22;nxa28190;[~nxp29037] Below settings test passed, please have a try with Secure ROM preloaded 
+dssc pop testbench/blocks/soc_tb/tool_data/compiler/cm85/cm85_s/ldscripts/cm85_s.lnk  -ver 1.23
+dssc pop  testbench/blocks/soc_tb/tool_data/compiler/cm85/cm85_s/makefile.pre_compile -ver 1.13
+
+add below args to set instruction in ROM and data in SRAM0
+
+make_arg += CM85_INST_MEM=boot_vector
+
+make_arg += CM85_DATA_MEM=sram0
+make_arg += CM85_STACK_MEM=sram0;;;","30/Jul/25 09:52;nxp29037;With the steps below, execution of test code from ROM is working. Thanks;;;",,,,,,

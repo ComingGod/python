@@ -1,0 +1,1 @@
+pyinstaller --onefile -F --icon=pdf_icon.ico  --version-file version.txt pdf_comment_extract.py

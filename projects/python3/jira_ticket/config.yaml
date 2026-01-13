@@ -1,0 +1,5 @@
+jira:
+  url: "https://jira.sw.nxp.com/sr/jira.issueviews:searchrequest-csv-with-bom-all-fields/temp/SearchRequest.csv?jqlQuery=project+%3D+ACSVS+AND+affectedVersion+%3D+i.mxRT2660+ORDER+BY+priority+DESC%2C+updated+DESC"
+  timeout: 60
+  # retries: 3
+  # retry_delay: 5

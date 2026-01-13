@@ -1,0 +1,147 @@
+log_directory: .\log\
+reuse_ip:
+- name: ATX0
+  ip_type: AIP
+  owner: York Gao
+- name: CMC
+  ip_type: DIP
+  owner: Kiwi Li
+- name: CRC0
+  ip_type: DIP
+  owner: Hong Tao
+- name: DEBUGMAILBOX0
+  ip_type: System
+  owner: Jess Dai
+- name: EDMA_0_MP
+  ip_type: System
+  owner: Jess Dai
+- name: EDMA_0_TCD0
+  ip_type: System
+  owner: Jess Dai
+- name: EIM0
+  ip_type: DIP
+  owner: Zeng Jia
+- name: ERM0
+  ip_type: DIP
+  owner: Zeng Jia
+- name: FLEXPWM0
+  ip_type: DIP
+  owner: Robert Lu
+- name: FMU0__FMU
+  ip_type: DIP
+  owner: none
+- name: FMU0__TEST
+  ip_type: DIP
+  owner: none
+- name: FREQME0
+  ip_type: DIP
+  owner: none
+- name: LPI2C0
+  ip_type: DIP
+  owner: Brandon Xu
+- name: LPSPI0
+  ip_type: DIP
+  owner: Robert Lu
+- name: LPUART0
+  ip_type: DIP
+  owner: Piaoyang Wang
+- name: LPUART1
+  ip_type: DIP
+  owner: Piaoyang Wang
+- name: LPUART2
+  ip_type: DIP
+  owner: Piaoyang Wang
+- name: MBC0__MBC
+  ip_type: DIP
+  owner: Zeng Jia
+- name: SPC0
+  ip_type: AIP
+  owner: Vivian Xia
+- name: VBAT0
+  ip_type: AIP
+  owner: none
+- name: WUU0
+  ip_type: System
+  owner: none
+- name: WWDT0
+  ip_type: DIP
+  owner: none
+new_ip:
+- name: ADC0
+  ip_type: AIP
+  owner: Austin Li
+- name: CMP0
+  ip_type: AIP
+  owner: Fan Zhou
+- name: CMP1
+  ip_type: AIP
+  owner: Fan Zhou
+- name: CMP2
+  ip_type: AIP
+  owner: Fan Zhou
+- name: CMP3
+  ip_type: AIP
+  owner: Fan Zhou
+- name: FTM0
+  ip_type: DIP
+  owner: Hong Tao
+- name: OPAMP0
+  ip_type: AIP
+  owner: York Gao
+- name: OPAMP1
+  ip_type: AIP
+  owner: York Gao
+- name: OPAMP2
+  ip_type: AIP
+  owner: York Gao
+- name: PIT0
+  ip_type: DIP
+  owner: Robert Lu
+- name: PORT0
+  ip_type: DIP
+  owner: Brandon Xu
+- name: PORT1
+  ip_type: DIP
+  owner: Brandon Xu
+- name: PORT2
+  ip_type: DIP
+  owner: Brandon Xu
+- name: PORT3
+  ip_type: DIP
+  owner: Brandon Xu
+- name: PWT0
+  ip_type: DIP
+  owner: Vivian Xia
+- name: PWT1
+  ip_type: DIP
+  owner: Vivian Xia
+- name: QTMR0
+  ip_type: DIP
+  owner: Robert Lu
+- name: RGPIO0
+  ip_type: DIP
+  owner: Brandon Xu
+- name: RGPIO1
+  ip_type: DIP
+  owner: Brandon Xu
+- name: RGPIO2
+  ip_type: DIP
+  owner: Brandon Xu
+- name: RGPIO3
+  ip_type: DIP
+  owner: Brandon Xu
+- name: SCG0
+  ip_type: AIP
+  owner: Hong Tao
+- name: SYSCON
+  ip_type: System
+  owner: Vivian Xia
+- name: SYSCON__MRCC
+  ip_type: System
+  owner: Vivian Xia
+- name: SYSCON__SECCON
+  ip_type: System
+  owner: Vivian Xia
+- name: XBAR0
+  ip_type: DIP
+  owner: Austin Li

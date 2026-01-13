@@ -1,0 +1,49 @@
+IP_Name,Owner,IP type,reuse
+ADC0,Austin Li,AIP,no
+ATX0,York Gao,AIP,yes
+CMC,Kiwi Li,DIP,yes
+CMP0,Fan Zhou,AIP,no
+CMP1,Fan Zhou,AIP,no
+CMP2,Fan Zhou,AIP,no
+CMP3,Fan Zhou,AIP,no
+CRC0,Hong Tao,DIP,yes
+DEBUGMAILBOX0,Jess Dai,System,yes
+EDMA_0_MP,Jess Dai,System,yes
+EDMA_0_TCD0,Jess Dai,System,yes
+EIM0,Zeng Jia,DIP,yes
+ERM0,Zeng Jia,DIP,yes
+FLEXPWM0,Robert Lu,DIP,yes
+FMU0__FMU,none,DIP,yes
+FMU0__TEST,none,DIP,yes
+FREQME0,none,DIP,yes
+FTM0,Hong Tao,DIP,no
+LPI2C0,Brandon Xu,DIP,yes
+LPSPI0,Robert Lu,DIP,yes
+LPUART0,Piaoyang Wang,DIP,yes
+LPUART1,Piaoyang Wang,DIP,yes
+LPUART2,Piaoyang Wang,DIP,yes
+MBC0__MBC,Zeng Jia,DIP,yes
+OPAMP0,York Gao,AIP,no
+OPAMP1,York Gao,AIP,no
+OPAMP2,York Gao,AIP,no
+PIT0,Robert Lu,DIP,no
+PORT0,Brandon Xu,DIP,no
+PORT1,Brandon Xu,DIP,no
+PORT2,Brandon Xu,DIP,no
+PORT3,Brandon Xu,DIP,no
+PWT0,Vivian Xia,DIP,no
+PWT1,Vivian Xia,DIP,no
+QTMR0,Robert Lu,DIP,no
+RGPIO0,Brandon Xu,DIP,no
+RGPIO1,Brandon Xu,DIP,no
+RGPIO2,Brandon Xu,DIP,no
+RGPIO3,Brandon Xu,DIP,no
+SCG0,Hong Tao,AIP,no
+SPC0,Vivian Xia,AIP,yes
+SYSCON,Vivian Xia,System,no
+SYSCON__MRCC,Vivian Xia,System,no
+SYSCON__SECCON,Vivian Xia,System,no
+VBAT0,none,AIP,yes
+WUU0,none,System,yes
+WWDT0,none,DIP,yes
+XBAR0,Austin Li,DIP,no

@@ -1,0 +1,6 @@
+log_directory: "."  # 日志文件目录
+reuse_ip:  # 要匹配的reuse IP列表
+   - "s110"
+   - "ip_core2"
+   - "dsp"
+   - "gpu"
